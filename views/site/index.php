@@ -5,19 +5,21 @@ $this->title = 'My Yii Application';
 <div class="site-index">
 
     <div id="home">
-    
+    	<img src="../web/images/home.png" />
+	<img src="../web/images/logo_rise.png" />
     </div>
 
-    <div class="body-content">
-
+    <div class="about">
         <div class="row content">
         	<div class="col-lg-12">
            		<h2>Sobre</h2>
         	<div>
         </div>
+    </div>  
 
-        <hr>
+    <hr>
 
+    <div>
         <div class="row content">
         	<div class="col-lg-6">
 	        	<h2>Estado, sociedad e mercado:</h2>

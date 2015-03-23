@@ -6,23 +6,38 @@ $this->title = 'My Yii Application';
 
     <div id="home">
     	<img src="../web/images/home.png" />
-	<img src="../web/images/logo_rise.png" />
+		<img src="../web/images/logo_rise2.png" />
     </div>
 
-    <div class="about">
+    <div id="about">
         <div class="row content">
-        	<div class="col-lg-12">
+        	<div class="col-lg-5">
            		<h2>Sobre</h2>
-        	<div>
+        	</div>
+        	<div class="col-lg-7">
+        		<p>Fundada en 1989, la Sociedad para el Desarrollo de la Socioeconomía (Society for the Advancement of Socio-Economics – SASE) es una institución internacional con miembros en más de cincuenta países. La SASE organiza una reunión anual principal, además de reuniones regionales, eventos académicos locales, y publica una revista, la Socio-Economic Review. En paralelo a la creación de la sección Iberoamericana de la SASE, fue organizada en 2013, en la Universidad Autónoma de México, la Primera Reunión Iberoamericana de Socioeconomía, el primer encuentro regional de la SASE.</p>
+				<p>En 2015, la II Reunión Iberoamericana de Socioeconomía tendrá lugar en Porto Alegre, Rio Grande do Sul, en Brasil, con la organización de la SASE, del Programa de Posgrado en Economía de la Universidade Federal do Rio Grande do Sul, del Centro de Estudos Internacionais sobre Governo (CEGOV/UFRGS), con el apoyo de la Universidad Autónoma de Madrid. La reunión es el esfuerzo de profundización de las actividades de internacionalización de la investigación y la docencia en el nivel de posgrado, destacando también el carácter multidisciplinar de las áreas temáticas.</p>
+				<div class="row">
+				<div class="col-sm-4">
+					<img src="../web/images/logo_sase.png" alt="Logo da SASE" />
+				</div>
+				<div class="col-sm-4">
+					<img src="../web/images/logo_ufrgs.png" alt="Logo da UFRGS" />
+				</div>
+				<div class="col-sm-4">
+					<img src="../web/images/logo_cegov.png" alt="Logo do CEGOV" />
+				</div>
+
+				</div>
+        	</div>	
         </div>
-    </div>  
+    </div> 
 
-    <hr>
-
-    <div>
+    <div id="theme">
         <div class="row content">
         	<div class="col-lg-6">
-	        	<h2>Estado, sociedad e mercado:</h2>
+	        	<h2>Estado, sociedad</h2>
+	        	<h2>y mercado:</h2>
 	        	<h3>nuevas perspectivas para el desarrollo</h3>
         		<p> Las instituciones neoliberales y la estrategia de promoción del desarrollo económico con protagonismo del mercado, vaciamiento del papel del estado y escasa política social parecía que entraba en jaque con la crisis financiera internacional y la gran depresión. Ya a finales de los años 1990 se observaba una cierta tendencia de cambio en la estrategia de desarrollo de los países iberoamericanos, dado la incapacidad de ese modelo neoliberal para promover crecimiento económico con distribución de la renta. Esa tendencia también se ha manifestado en el mundo académico, con una constante búsqueda de revisión del paradigma dominante y la recuperación de una perspectiva teórica heterodoxa y multidisciplinar. Sin embargo, después de seis años desde la deflagración de la crisis, persisten los interrogantes políticos y teóricos sobre las nuevas estrategias para el desarrollo de la región. Los países emergentes están en un momento decisivo de definición de esas estrategias de desarrollo sostenido, no obstante, el debate teórico académico, a pesar de haber avanzado mucho en los últimos años, todavía no es capaz de ofrecer una respuesta mínimamente consensuada sobre varios aspectos chaves del desarrollo.</p>
 			</div>

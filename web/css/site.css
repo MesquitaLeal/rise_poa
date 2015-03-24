@@ -1,3 +1,11 @@
+/* ===================================
+
+    Cores:
+    #3D687F - Azul Claro
+
+   =================================== */
+
+
 @font-face {
     font-family: "AncillaryRegular";
     src: url(../fonts/Ancillary-Regular.otf);
@@ -24,7 +32,7 @@ body {
 h2,
 h3 {
     font-family: "AncillaryRegular", Arial, sans-serif;
-    color: rgb(61, 104, 127);
+    color: #3D687F;
     text-transform: uppercase;
 }
 
@@ -83,6 +91,7 @@ h3:after {
 
 #about p {
     padding-top: 15px;
+    color: #3D687F;
 }
 
 #theme {
@@ -127,6 +136,10 @@ h3:after {
     left:15px;
 }
 
+#theme p {
+    color: #91163C;
+}
+
 #theme .col-lg-6 p:nth-child(1) {
     padding-top: 128px;
 }
@@ -143,6 +156,10 @@ h3:after {
     font-size: 2.3rem;
     padding-left: 15px;
     margin-bottom: 50px;
+}
+
+#panels h2:before {
+    color: #FFFFFF;
 }
 
 #panels h2:after {
@@ -252,29 +269,15 @@ h3:after {
     margin-right: 25px;
 }
 
-
-
-
-.wrap {
-    min-height: 100%;
-    height: auto;
-    margin: 0 auto -60px;
-    padding: 0 0 60px;
-}
-
-.wrap > .container {
-    padding: 70px 15px 20px;
-}
-
 .content {
-    max-width: 1200px;
+    max-width: 980px;
     padding: 100px 0;
     margin: 0 auto;
 }
 
 .footer {
     height: 60px;
-    background-color: #f5f5f5;
+    background-color: #1e1e1e;
     border-top: 1px solid #ddd;
     padding-top: 20px;
 }
@@ -352,4 +355,17 @@ a.desc:after {
 .navbar-inverse .navbar-nav .active a:hover,
 .navbar-inverse .navbar-nav li a:hover {
     border-bottom: 1px solid #fff;
+}
+
+
+/* ================================================= */
+/* ============= Entre 780px e 980px ============= */
+/* ================================================= */
+
+@media screen and (min-width: 1500px) {
+    
+    .content {
+        max-width: 1200px;
+    }
+
 }

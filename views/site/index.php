@@ -46,6 +46,80 @@ $this->title = 'My Yii Application';
 				<p>En fin, las demandas socioeconómicas de los países iberoamericanos colocan en la agenda de discusión cuestiones relevantes sobre las estrategias y obstáculos del desarrollo sostenido a largo plazo, y que deben analizarse desde el punto de vista teórico, político y multidisciplinar. En este sentido, la II RISE pretende debatir cuestiones relacionadas con los siguientes temas: el papel del estado en la socio-economía; el desarrollo en los países iberoamericanos: desafíos y perspectivas; democracia, ciudadanía y movimientos sociales: macroeconomía, sistemas financieros y regulación; demografía y desarrollo regional; empleo, calidad de vida y políticas sociales; desarrollo sostenido y medio-ambiente; desindustrialización y patrones de comercio; y relaciones internacionales e integración regional.</p>
         	</div>
         </div>
-
     </div>
+
+    <div id="panels">
+        <div class="row content">
+        	<div class="col-lg-6">
+	        	<h2>Mesas Temáticas</h2>
+        		<ol>
+        			<li>El debate sobre el Estado de la Socio-economia</li>
+					<li>Desarrollo en los Países Ibero-americanos: desafios y perspectivas</li>
+					<li>Democracia, Ciudadanía y Movimientos Sociales</li>
+					<li>Macroeconomía, Sistemas Financieros y Regulación</li>
+					<li>Cultura, Desarrollo y Economía Creativa</li>
+					<li>Empleo, Calidad de Vida y Políticas Sociales</li>
+					<li>Desarrollo sostenible y Medio Ambiente</li>
+					<li>Desindustrialización y Patrones de Comercio</li>
+					<li>Relaciones Internacionales e Integración Regional</li>
+    				<li>Ibero-América y Países Emergentes</li>
+        		</ol>
+			</div>
+        	<div class="col-lg-6">
+				
+        	</div>
+        </div>
+    </div>
+
+    <div id="papers">
+        <div class="row content">
+        	<div class="col-lg-12">
+	        	<h2>Envío de Comunicaciones</h2>
+        		<ol>
+        			<li>Enviar resúmenes hasta el 30 de Junio de 2015.</li>
+        			<li>Aviso de aceptación de la comunicación hasta el 30 de Julio de 2015.</li>
+        			<li>El resumen deberá contener como elementos mínimos: </li>
+        			<ul>
+						<li>Objetivo(s),</li>
+						<li>Metodología,</li>
+						<li>Principales resultados,</li>
+						<li>Bibliografía más actual</li>
+						<li>Nombres, email y créditos académicos de todos los autores</li>
+						<li>Deberá tener una extensión de hasta 500 palabras como máximo.</li>
+						<li>Se remitirán en español o portugués e inglés</li>
+						<li>Los idiomas del evento serán el español, el portugués y el inglés</li>
+					</ul>
+					<li>Indicar a qué mesa temática se remite la comunicación.</li>
+        		</ol>
+        		<p>*La aceptación del resumen por el Comité Científico es el requisito imprescindible para presentar la comunicación en la RISE. No será necesario remitir la comunicación completa.</p>
+			</div>
+        </div>
+    </div>
+
+    <div id="deadline">
+        <div class="row content">
+        	<div class="col-lg-12">
+	        	<h2>Fechas</h2>
+			</div>
+        </div>
+        <div class="row content">
+        	<div class="col-lg-3">
+        		<h6>01/04/2015</h6>
+        		<p>Abre plazo para recibir las comunicaciones</p>
+        	</div>
+        	<div class="col-lg-3">
+        		<h6>30/06/2015</h6>
+        		<p>Finaliza plazo para recibir las comunicaciones</p>
+        	</div>
+        	<div class="col-lg-3">
+        		<h6>30/07/2015</h6>
+        		<p>Selección de comunicaciones</p>
+        	</div>
+        	<div class="col-lg-3">
+        		<h6>19 a 21 <br>NOV 2015</h6>
+        		<p>Congresso</p>
+        	</div>
+        </div>
+    </div>
+
 </div>

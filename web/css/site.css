@@ -18,6 +18,7 @@ body {
     height: 100%;
     font-family: "Source Sans Pro", Arial, sans-serif;
     font-size: 17px;
+    font-weight: 400;
 }
 
 h2,
@@ -30,7 +31,6 @@ h3 {
 h2:first-of-type:before {
     content: "+";
     font-family: "TypoGroteskThin", Arial, sans-serif;
-    font-size: 3rem;
     color: rgb(61, 104, 127);
     position: absolute;
     top: -25px;
@@ -42,6 +42,7 @@ h3:after {
     width: 0; 
     height: 0; 
     border-left: 25px solid transparent; 
+    font-size: 3rem;
     position: relative;
     content: "";
 }
@@ -85,7 +86,7 @@ h3:after {
 }
 
 #theme {
-    background-color: rgb(197, 198, 165);
+    background-color: #c1bca4;
 }
 
 #theme h2,
@@ -97,7 +98,7 @@ h3:after {
 }
 
 #theme h2:after{ 
-    border-top: 60px solid rgb(197, 198, 165); 
+    border-top: 60px solid #c1bca4; 
     top: 60px;
     left:18px;
 }
@@ -114,17 +115,141 @@ h3:after {
 #theme h3 {
     font-size: 1.8rem;
     margin-bottom: 110px;
+    line-height: 1.6rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #theme h3:after {
-    border-top: 100px solid rgb(197, 198, 165); 
-    border-left: 45px solid transparent; 
-    top: 60px;
-    left:25px;
+    border-top: 120px solid #c1bca4; 
+    border-left: 55px solid transparent; 
+    top: 70px;
+    left:15px;
 }
 
 #theme .col-lg-6 p:nth-child(1) {
     padding-top: 128px;
+}
+
+#panels {
+    background-color: rgb(91, 138, 182);
+}
+
+#panels h2, 
+#papers h2,
+#deadline h2 {
+    background-color: #c1bca4;
+    max-width: 430px;
+    font-size: 2.3rem;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+#panels h2:after {
+    border-top: 60px solid rgb(91, 138, 182); 
+    top: 65px;
+    left:28px;
+}
+
+#panels li,
+#papers ol > li  {
+    list-style: none;
+    counter-increment: panel-counter;
+    margin-left: -58px;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+#panels li:before,
+#papers ol > li:before {
+    content: counter(panel-counter);
+    margin-right: 10px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(61, 104, 127);
+}
+
+#panels li:last-child:before {
+    margin-left: -8px;
+}
+
+#papers {
+    background-color: rgb(216, 213, 182);
+}
+
+#papers h2,
+#papers h2:before,
+#papers li,
+#papers p {
+    color: rgb(145, 22, 60);
+}
+
+#papers h2 {
+    max-width: 620px;
+}
+
+#papers h2:after {
+    border-top: 60px solid rgb(216, 213, 182); 
+    top: 65px;
+    left:45px;
+}
+
+#papers ol > li,
+#papers ol > li:before,
+#papers ul > li {
+    text-transform: none;
+    color: rgb(145, 22, 60);
+}
+
+#papers ul > li {
+    list-style: none;
+}
+
+#deadline {
+    background-color: #c1bca4;
+}
+
+#deadline h2{
+    background-color: rgb(221, 224, 186);
+    max-width: 203px;
+    color: rgb(145, 22, 60);
+    margin-bottom: -50px;
+}
+
+#deadline h2:before {
+    color: #FFFFFF;
+}
+
+#deadline h2:after {
+    border-top: 60px solid #c1bca4; 
+    top: 65px;
+    left:15px;
+}
+
+#deadline h6 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#deadline p {
+    text-align: center;
+    margin-top: 35px;
+}
+
+#deadline .col-lg-3:last-child p {
+    margin-top: 0;
+}
+
+#deadline .col-lg-3 {
+    border-top: 4px solid rgb(145, 22, 60);
+    background-color: rgb(221, 224, 186);
+    height: 200px;
+    width: 250px;
+    margin-right: 25px;
 }
 
 

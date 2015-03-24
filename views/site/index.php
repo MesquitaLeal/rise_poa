@@ -1,12 +1,13 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'My Yii Application';
+use yii\helpers\Html;
+$this->title = 'RISE';
 ?>
 <div class="site-index">
 
     <div id="home">
-    	<img src="../web/images/home.png" />
-		<img src="../web/images/logo_rise2.png" />
+    	<img src="images/home.png" />
+		<img src="images/logo_rise2.png" />
     </div>
 
     <div id="about">
@@ -19,13 +20,13 @@ $this->title = 'My Yii Application';
 				<p>En 2015, la II Reunión Iberoamericana de Socioeconomía tendrá lugar en Porto Alegre, Rio Grande do Sul, en Brasil, con la organización de la SASE, del Programa de Posgrado en Economía de la Universidade Federal do Rio Grande do Sul, del Centro de Estudos Internacionais sobre Governo (CEGOV/UFRGS), con el apoyo de la Universidad Autónoma de Madrid. La reunión es el esfuerzo de profundización de las actividades de internacionalización de la investigación y la docencia en el nivel de posgrado, destacando también el carácter multidisciplinar de las áreas temáticas.</p>
 				<div class="row">
 				<div class="col-sm-4">
-					<img src="../web/images/logo_sase.png" alt="Logo da SASE" />
+					<img src="images/logo_sase.png" alt="Logo da SASE" />
 				</div>
 				<div class="col-sm-4">
-					<img src="../web/images/logo_ufrgs.png" alt="Logo da UFRGS" />
+					<img src="images/logo_ufrgs.png" alt="Logo da UFRGS" />
 				</div>
 				<div class="col-sm-4">
-					<img src="../web/images/logo_cegov.png" alt="Logo do CEGOV" />
+					<img src="images/logo_cegov.png" alt="Logo do CEGOV" />
 				</div>
 
 				</div>
@@ -155,6 +156,15 @@ $this->title = 'My Yii Application';
         		<h6>19 a 21 <br>NOV 2015</h6>
         		<p>Congresso</p>
         	</div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="row content">
+        	<div class="col-lg-12">
+	        	<h2>Contato</h2>
+	        	<?= Html::mailto('2rise.ufrgs.portoalegre@gmail.com', '2rise.ufrgs.portoalegre@gmail.com'); ?>
+			</div>
         </div>
     </div>
 

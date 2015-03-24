@@ -50,9 +50,9 @@ $this->title = 'My Yii Application';
 
     <div id="panels">
         <div class="row content">
-        	<div class="col-lg-6">
+        	<div class="col-lg-12">
 	        	<h2>Mesas Temáticas</h2>
-        		<ol>
+        		<ol class="panels-list">
         			<li>El debate sobre el Estado de la Socio-economia</li>
 					<li>Desarrollo en los Países Ibero-americanos: desafios y perspectivas</li>
 					<li>Democracia, Ciudadanía y Movimientos Sociales</li>
@@ -65,9 +65,45 @@ $this->title = 'My Yii Application';
     				<li>Ibero-América y Países Emergentes</li>
         		</ol>
 			</div>
-        	<div class="col-lg-6">
-				
-        	</div>
+        	<!--<div class="col-lg-6" id="members">
+				<div class="row">
+					<div class="col-lg-6">
+						<ul>
+							<li>Dr. Pedro Cezar Dutra Fonseca (UFRGS)</li>
+							<li>Dr. Fernando Ferrari Filho (UFRGS)</li>
+							<li>Dr. Santos M. Ruesga (UAM)</li>
+							<li>Dr. Rolando Cordera (UNAM - Mexico)</li>
+							<li>Dr. Gerardo Fujii (UNAM - Mexico)</li>
+							<li>Dr. Glenn Morgan (SASE President, Cardiff Business School)</li>
+							<li>Dr. Gregory Jackson (Freie Universität Berlin)</li>
+							<li>Dr. Ricardo Bielschowsky (UFRJ-Cepal)</li>
+							<li>Dr. Claudio Dedecca (Unicamp)</li>
+							<li>Dra. Maria Cristina Cacciamali (USP)</li>
+							<li>Dra. Maria de Lourdes Mollo (UnB)</li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<h2>Comite Científico (preliminar)</h2>
+						<ul>
+							<li>Dra. Magna Inácio (UFMG)</li>
+							<li>Dra. Leda Paulani (USP)</li>
+							<li>Dra. Nadya Araujo Guimarães (USP)</li>
+							<li>Dra. Marianne L. Wiesebron (University of Leiden - Holland)</li>
+							<li>Dr. Andrew Schrank (Brown University - USA)</li>
+							<li>Dr. Michael Piore (MIT - USA)</li>
+							<li>Dr. Diego Sánchez-Ancochea (University of Oxford - UK)</li>
+							<li>Dr. Marcio Pochmann (Unicamp)</li>
+							<li>Dr. Marco Lima da Costa (UFPE)</li>
+							<li>Dr. Ricardo Carneiro (World Bank)</li>
+							<li>Dr. Paulo Nogueira Batista (IMF)</li>
+							<li>Dr. Miguel Atienza (U. Antofagasta - Chile)</li>
+						</ul>
+					</div>
+							
+					
+					</div>
+				</div>
+        	</div>-->
         </div>
     </div>
 

@@ -29,13 +29,23 @@ AppAsset::register($this);
     <div class="wrap">
         <?php
             NavBar::begin([
-                //'brandLabel' => 'My Company',
-                'brandUrl' => Yii::$app->homeUrl,
+                'brandLabel' => 'RISE',
+                //'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
                     'class' => 'navbar-inverse navbar-fixed-top',
                 ],
             ]);
-            echo Nav::widget([
+            echo "<div class='navbar-nav navbar-right'>";
+            echo "<a href='#about'>Sobre</a>";
+            echo "<a href='#theme'>Tema</a>";
+            echo "<a href='#panels'>Mesas</a>";
+            echo "<a href='#papers'>Envios</a>";
+            echo "<a href='#deadline'>Fechas</a>";
+            echo "<a href='mailto:2rise.ufrgs.portoalegre@gmail.com'>Contato</a>";
+            echo "</div>";
+
+            NavBar::end();
+            /* echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-right'],
                 'items' => [
                     ['label' => 'Sobre', 'url' => ['/site/index']],
@@ -51,8 +61,8 @@ AppAsset::register($this);
                             'url' => ['/site/logout'],
                             'linkOptions' => ['data-method' => 'post']],
                 ],
-            ]);
-            NavBar::end();
+            ]); */
+            
         ?>
 
         <div class="">

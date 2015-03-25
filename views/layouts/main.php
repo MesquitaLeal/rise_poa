@@ -35,15 +35,6 @@ AppAsset::register($this);
                     'class' => 'navbar-inverse navbar-fixed-top',
                 ],
             ]);
-            /*echo "<div class='navbar-nav navbar-right'>";
-            echo "<a href='#about'>Sobre</a>";
-            echo "<a href='#theme'>Tema</a>";
-            echo "<a href='#panels'>Mesas</a>";
-            echo "<a href='#papers'>Envios</a>";
-            echo "<a href='#deadline'>Fechas</a>";
-            echo "<a href='mailto:2rise.ufrgs.portoalegre@gmail.com'>Contato</a>";
-            echo "</div>";*/
-
             
              echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-right'],
@@ -53,7 +44,7 @@ AppAsset::register($this);
                     ['label' => 'Mesas', 'url' => ['/site/index', '#'=>'panels']],
                     ['label' => 'Envios', 'url' => ['/site/index', '#'=>'papers']],
                     ['label' => 'Fechas', 'url' => ['/site/index', '#'=>'deadline']],
-                    ['label' => 'Contato', 'url' => ['/site/index', '#'=>'contact']],
+                    ['label' => 'Contacto', 'url' => ['/site/index', '#'=>'contact']],
                     /* Yii::$app->user->isGuest ?
                         ['label' => 'Login', 'url' => ['/site/login']] :
                         ['label' => 'Logout (' . Yii::$app->user->identity->username . ')',

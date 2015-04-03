@@ -129,6 +129,7 @@ $this->title = 'RISE';
 					<li>Indicar a qué mesa temática se remite la comunicación.</li>
         		</ol>
         		<p>*La aceptación del resumen por el Comité Científico es el requisito imprescindible para presentar la comunicación en la RISE. No será necesario remitir la comunicación completa.</p>
+        		<a href="index.php?r=abstracts/create"><button class="btn btn-primary"><h4>Enviar Resumen</h4></button></a>        		
 			</div>
         </div>
     </div>

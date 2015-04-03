@@ -45,11 +45,11 @@ AppAsset::register($this);
                     ['label' => 'Envios', 'url' => ['/site/index', '#'=>'papers']],
                     ['label' => 'Fechas', 'url' => ['/site/index', '#'=>'deadline']],
                     ['label' => 'Contacto', 'url' => ['/site/index', '#'=>'contact']],
-                    /* Yii::$app->user->isGuest ?
+                    Yii::$app->user->isGuest ?
                         ['label' => 'Login', 'url' => ['/site/login']] :
-                        ['label' => 'Logout (' . Yii::$app->user->identity->username . ')',
+                        ['label' => 'Logout (' . Yii::$app->user->identity->name . ')',
                             'url' => ['/site/logout'],
-                            'linkOptions' => ['data-method' => 'post']], */
+                            'linkOptions' => ['data-method' => 'post']], 
                 ],
             ]); 
             NavBar::end();

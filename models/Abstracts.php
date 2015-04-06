@@ -20,6 +20,8 @@ class Abstracts extends \yii\db\ActiveRecord
      * @inheritdoc
      */
 
+     private $_userId;
+
     public static function tableName()
     {
         return 'abstracts';
@@ -33,6 +35,7 @@ class Abstracts extends \yii\db\ActiveRecord
         return [
             [['author', 'email', 'institution', 'text', 'panel'], 'required'],
             [['author', 'email', 'institution', 'text'], 'string'],
+            [['email'], 'email'],
             [['panel'], 'integer'],
             [['panel'], 'safe']
         ];
@@ -73,4 +76,6 @@ class Abstracts extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Panels::className(), ['id' => 'panel']);
     }
+
+
 }

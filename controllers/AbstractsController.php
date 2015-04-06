@@ -4,6 +4,8 @@ namespace app\controllers;
 
 use Yii;
 use app\models\Abstracts;
+use app\models\AbstractsUsers;
+use app\models\Users;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -28,7 +30,7 @@ class AbstractsController extends Controller
                         'roles' => ['@'],
                     ],
                 ],
-                
+
             ],
 
             'verbs' => [
@@ -75,12 +77,21 @@ class AbstractsController extends Controller
     public function actionCreate()
     {
         $model = new Abstracts();
+        //$abstractUser = new AbstractsUsers();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            // && $abstractUser->load(Yii::$app->request->post())
+
+            //$abstractUser->abstracts_id = $model->id;
+            //$abstractUser->users_id = $abstractUser->getUsers();
+            //$abstractUser->save();
+
             return $this->redirect(['view', 'id' => $model->id]);
+
         } else {
             return $this->render('create', [
                 'model' => $model,
+                'abstractUser' => $abstractUser,
             ]);
         }
     }

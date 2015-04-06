@@ -8,6 +8,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\Users;
 
 class SiteController extends Controller
 {
@@ -60,7 +61,9 @@ class SiteController extends Controller
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
+            $user_id = $model->getUser();
+            return $this->redirect(['users/view', 'id' => $user_id->id]);
+            //return $this->goBack();
         } else {
             return $this->render('login', [
                 'model' => $model,
@@ -89,9 +92,9 @@ class SiteController extends Controller
         }
     }
 
-    
 
 
-       
+
+
 
 }

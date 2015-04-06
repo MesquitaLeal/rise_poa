@@ -19,9 +19,8 @@ use yii\web\IdentityInterface;
  * @property AbstractsUsers[] $abstractsUsers
  * @property Abstracts[] $abstracts
  */
-class Users extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
+class Users extends ActiveRecord implements IdentityInterface
 {
-    public $email;  
     /**
      * @inheritdoc
      */
@@ -36,9 +35,12 @@ class Users extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
     public function rules()
     {
         return [
-            [['name', 'email'], 'required'],
-            [['name', 'email', 'institution'], 'string'],
-            [['email'], 'unique']
+            [['name', 'email', 'institution', 'password'], 'required'],
+            [['name', 'email', 'institution', 'password'], 'string', 'min' => 6],
+            [['email'], 'unique'],
+            [['email'], 'email'],
+            [['password'], 'validatePassword'],
+
         ];
     }
 
@@ -49,9 +51,10 @@ class Users extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
     {
         return [
             'id' => Yii::t('app', 'ID'),
-            'name' => Yii::t('app', 'Name'),
-            'email' => Yii::t('app', 'Email'),
-            'institution' => Yii::t('app', 'Institution'),
+            'name' => Yii::t('app', 'Nombre Completo'),
+            'email' => Yii::t('app', 'Correo Electrónico'),
+            'institution' => Yii::t('app', 'Crédito Académico'),
+            'password' => Yii::t('app', 'Contraseña')
         ];
     }
 

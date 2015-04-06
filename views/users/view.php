@@ -10,7 +10,7 @@ $this->title = $model->name;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Users'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="users-view">
+<div class="content users-view">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -23,6 +23,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'method' => 'post',
             ],
         ]) ?>
+        <?= Html::a(Yii::t('app', 'Enviar Resumen'), ['abstracts/create'], ['class' => 'btn btn-warning']) ?>
     </p>
 
     <?= DetailView::widget([

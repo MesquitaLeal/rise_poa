@@ -30,6 +30,8 @@ class SiteController extends Controller
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'logout' => ['post'],
+                    'us' => ['post'],
+                    'es' => ['post'],
                 ],
             ],
         ];
@@ -90,6 +92,24 @@ class SiteController extends Controller
                 'model' => $model,
             ]);
         }
+    }
+
+    public function actionUs()
+    {
+        Yii::$app->language = 'en-US';
+        //$_POST['lang'] = 'en_US';
+        $this->init();
+        return $this->goHome();
+
+    }
+
+    public function actionEs()
+    {
+        Yii::$app->language = 'es-ES';
+        //$_POST['lang'] = 'es_ES';
+        $this->init();
+        return $this->goHome();
+
     }
 
 

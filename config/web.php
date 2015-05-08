@@ -6,6 +6,7 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'language' => 'es-ES',
+    'sourceLanguage' => 'es-ES',
     'bootstrap' => ['log'],
     'components' => [
         'request' => [
@@ -38,6 +39,19 @@ $config = [
                 ],
             ],
         ],
+		'i18n' => [
+			'translations' => [
+				'app*' => [
+					'class' => 'yii\i18n\PhpMessageSource',
+					'basePath' => '@app/messages',
+					'sourceLanguage' => 'es-ES',
+					'fileMap' => [
+						'app' => 'app.php',
+						'app/error' => 'error.php',
+					],
+				],
+			],
+		],
         'db' => require(__DIR__ . '/db.php'),
     ],
     'params' => $params,

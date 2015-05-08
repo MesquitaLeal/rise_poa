@@ -39,12 +39,18 @@ AppAsset::register($this);
              echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-right'],
                 'items' => [
-                    ['label' => 'Sobre', 'url' => ['/site/index', '#'=>'about']],
-                    ['label' => 'Tema', 'url' => ['/site/index', '#'=>'theme']],
-                    ['label' => 'Mesas', 'url' => ['/site/index', '#'=>'panels']],
-                    ['label' => 'Envios', 'url' => ['/site/index', '#'=>'papers']],
-                    ['label' => 'Fechas', 'url' => ['/site/index', '#'=>'deadline']],
-                    ['label' => 'Contacto', 'url' => ['/site/index', '#'=>'contact']],
+                    ['label' => Yii::t('app', 'Sobre'), 'url' => ['/site/index', '#'=>'about']],
+                    ['label' => Yii::t('app', 'Tema'), 'url' => ['/site/index', '#'=>'theme']],
+                    ['label' => Yii::t('app', 'Mesas'), 'url' => ['/site/index', '#'=>'panels']],
+                    ['label' => Yii::t('app', 'Envios'), 'url' => ['/site/index', '#'=>'papers']],
+                    ['label' => Yii::t('app', 'Fechas'), 'url' => ['/site/index', '#'=>'deadline']],
+                    ['label' => Yii::t('app', 'Contacto'), 'url' => ['/site/index', '#'=>'contact']],
+                    ['label' => Yii::$app->language,
+                        'items' => [
+                            ['label' => 'English', 'url' => ['/site/us'], 'linkOptions' => ['data-method' => 'post']],
+                            ['label' => 'Español', 'url' => ['/site/es'], 'linkOptions' => ['data-method' => 'post']],
+                        ],
+                    ],
                     Yii::$app->user->isGuest ?
                         ['label' => 'Login', 'url' => ['/site/login']] :
                         ['label' => 'Logout (' . Yii::$app->user->identity->name . ')',
@@ -54,6 +60,8 @@ AppAsset::register($this);
             ]); 
             NavBar::end();
         ?>
+
+
 
         <div>
             <?= Breadcrumbs::widget([

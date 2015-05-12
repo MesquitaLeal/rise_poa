@@ -35,7 +35,7 @@ AppAsset::register($this);
                     'class' => 'navbar-inverse navbar-fixed-top',
                 ],
             ]);
-            
+
              echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-right'],
                 'items' => [
@@ -47,17 +47,17 @@ AppAsset::register($this);
                     ['label' => Yii::t('app', 'Contacto'), 'url' => ['/site/index', '#'=>'contact']],
                     ['label' => Yii::$app->language,
                         'items' => [
-                            ['label' => 'English', 'url' => ['/site/us'], 'linkOptions' => ['data-method' => 'post']],
-                            ['label' => 'Español', 'url' => ['/site/es'], 'linkOptions' => ['data-method' => 'post']],
+                            ['label' => 'English', 'url' => ['/site/us']],
+                            ['label' => 'Español', 'url' => ['/site/es']],
                         ],
                     ],
                     Yii::$app->user->isGuest ?
                         ['label' => 'Login', 'url' => ['/site/login']] :
                         ['label' => 'Logout (' . Yii::$app->user->identity->name . ')',
                             'url' => ['/site/logout'],
-                            'linkOptions' => ['data-method' => 'post']], 
+                            'linkOptions' => ['data-method' => 'post']],
                 ],
-            ]); 
+            ]);
             NavBar::end();
         ?>
 

@@ -13,10 +13,9 @@ $this->title = 'RISE';
     <div id="about">
         <div class="row content">
         	<div class="col-md-5">
-           		<h2>Sobre</h2>
+           		<h2> <?= Yii::t('app', 'Sobre');?> </h2>
         	</div>
         	<div class="col-md-7">
-        	<p><?= Html::a('US', Yii::$app->language = 'en-US') ; ?></p>
         		<p>Fundada en 1989, la Sociedad para el Desarrollo de la Socioeconomía (Society for the Advancement of Socio-Economics – SASE) es una institución internacional con miembros en más de cincuenta países. La SASE organiza una reunión anual principal, además de reuniones regionales, eventos académicos locales, y publica una revista, la Socio-Economic Review. En paralelo a la creación de la sección Iberoamericana de la SASE, fue organizada en 2013, en la Universidad Autónoma de México, la Primera Reunión Iberoamericana de Socioeconomía, el primer encuentro regional de la SASE.</p>
 				<p>En 2015, la II Reunión Iberoamericana de Socioeconomía tendrá lugar en Porto Alegre, Rio Grande do Sul, en Brasil, con la organización de la SASE, del Programa de Posgrado en Economía de la Universidade Federal do Rio Grande do Sul, del Centro de Estudos Internacionais sobre Governo (CEGOV/UFRGS), con el apoyo de la Universidad Autónoma de Madrid. La reunión es el esfuerzo de profundización de las actividades de internacionalización de la investigación y la docencia en el nivel de posgrado, destacando también el carácter multidisciplinar de las áreas temáticas.</p>
 				<div class="row">
@@ -31,9 +30,9 @@ $this->title = 'RISE';
 				</div>
 
 				</div>
-        	</div>	
+        	</div>
         </div>
-    </div> 
+    </div>
 
     <div id="theme">
         <div class="row content">
@@ -101,8 +100,8 @@ $this->title = 'RISE';
 							<li>Dr. Miguel Atienza (U. Antofagasta - Chile)</li>
 						</ul>
 					</div>
-							
-					
+
+
 					</div>
 				</div>
         	</div>-->
@@ -130,7 +129,7 @@ $this->title = 'RISE';
 					<li>Indicar a qué mesa temática se remite la comunicación.</li>
         		</ol>
         		<p>*La aceptación del resumen por el Comité Científico es el requisito imprescindible para presentar la comunicación en la RISE. No será necesario remitir la comunicación completa.</p>
-        		<a href="index.php?r=abstracts/create"><button class="btn btn-primary"><h4>Enviar Resumen</h4></button></a>        		
+        		<a href="index.php?r=abstracts/create"><button class="btn btn-primary"><h4>Enviar Resumen</h4></button></a>
 			</div>
         </div>
     </div>

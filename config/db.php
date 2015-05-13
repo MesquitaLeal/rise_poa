@@ -10,6 +10,6 @@ return [
     'class' => 'yii\db\Connection',
     'dsn' => 'mysql:host=localhost;dbname=rise_poa',
     'username' => 'root',
-    'password' => 'cegov',
+    'password' => 'root',
     'charset' => 'utf8',
 ];

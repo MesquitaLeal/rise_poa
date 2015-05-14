@@ -94,22 +94,41 @@ class SiteController extends Controller
 
 	public function actionUs()
 	{
-		return $this->homes('en-US');
+		$_POST['_lang'] = 'en-US';
+		$this->init();
+		return $this->goHome();
 	}
 
 	public function actionEs()
 	{
-		return $this->homes('es-ES');
+		$_POST['_lang'] = 'es-ES';
+		$this->init();
+		return $this->goHome();
 	}
 
 	public function actionPt()
 	{
-		return $this->homes('pt-BR');
+		$_POST['_lang'] = 'pt-BR';
+		$this->init();
+		return $this->goHome();
 	}
 
 	public function homes($x){
 		parent::init();
 		Yii::$app->language = $x;
+		Yii::$app->session['_lang'] = $x;
 		return $this->actionIndex();
+	}
+	public function init(){
+		$app = Yii::$app;
+		if (isset($_POST['_lang']))
+		{
+			$app->language = $_POST['_lang'];
+			$app->session['_lang'] = $app->language;
+		}
+		else if (isset($app->session['_lang']))
+		{
+			$app->language = $app->session['_lang'];
+		}
 	}
 }

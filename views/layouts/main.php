@@ -28,6 +28,12 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 	<div class="wrap">
 		<?php
+			if(Yii::$app->language == 'en-US')
+				$xy = 'English';
+			elseif(Yii::$app->language == 'es-ES')
+				$xy = 'Español';
+			else
+				$xy = 'Português (Brazil)';
 			NavBar::begin([
 				'brandLabel' => 'rise',
 				//'brandUrl' => Yii::$app->homeUrl,
@@ -45,7 +51,7 @@ AppAsset::register($this);
 					['label' => Yii::t('app', 'Envios'), 'url' => ['/site/index', '#'=>'papers']],
 					['label' => Yii::t('app', 'Fechas'), 'url' => ['/site/index', '#'=>'deadline']],
 					['label' => Yii::t('app', 'Contacto'), 'url' => ['/site/index', '#'=>'contact']],
-					['label' => Yii::$app->language,
+					['label' => $xy,
 						'items' => [
 							['label' => 'English', 'url' => ['/site/us']],
 							['label' => 'Español', 'url' => ['/site/es']],

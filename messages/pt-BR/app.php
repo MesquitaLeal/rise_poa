@@ -53,4 +53,62 @@ return [
     'Update {modelClass}: ' => '',
     'Users' => '',
     'Users ID' => '',
+
+    //Menu
+    'Contacto' => 'Contato',
+    'Envios' => 'Envíos',
+    'Fechas' => 'Prazos',
+    'Mesas' => 'Mesas',
+    'Sobre' => 'Sobre',
+    'Tema' => 'Tema',
+
+   //About
+    'Fundada en 1989, la Sociedad para el Desarrollo de la Socioeconomía (Society for the Advancement of Socio-Economics – SASE) es una institución internacional con miembros en más de cincuenta países. La SASE organiza una reunión anual principal, además de reuniones regionales, eventos académicos locales, y publica una revista, la Socio-Economic Review. En paralelo a la creación de la sección Iberoamericana de la SASE, fue organizada en 2013, en la Universidad Autónoma de México, la Primera Reunión Iberoamericana de Socioeconomía, el primer encuentro regional de la SASE.' => 'Fundada em 1989, a Sociedade para o Desenvolvimento da Sócio-Economia (Society for the Advancement of Socio-Economics – SASE) é uma instituição internacional com membros em mais de cinquenta países. A SASE organiza um encontro anual principal, além de encontros regionais, eventos acadêmicos locais, e edita a revista Socio-Economic Review. Em paralelo à criação de da seção Ibero-Americana da SASE, foi organizada em 2013, na Universidade Autônoma do México, a Primeira Reunião Ibero-Americana de Socioeconomia, o primeiro encontro regional da SASE.',
+    'En 2015, la II Reunión Iberoamericana de Socioeconomía tendrá lugar en Porto Alegre, Rio Grande do Sul, en Brasil, con la organización de la SASE, del Programa de Posgrado en Economía de la Universidade Federal do Rio Grande do Sul, del Centro de Estudos Internacionais sobre Governo (CEGOV/UFRGS), con el apoyo de la Universidad Autónoma de Madrid. La reunión es el esfuerzo de profundización de las actividades de internacionalización de la investigación y la docencia en el nivel de posgrado, destacando también el carácter multidisciplinar de las áreas temáticas.' => 'Em 2015, a II Reunião Ibero-Americana de Socioeconomia será realizada em Porto Alegre, Rio Grande do Sul, no Brasil, com a organização da SASE, do Programa de Pós-Graduação em Economia da Universidade Federal do Rio Grande do Sul, do Centro de Estudos Internacionais sobre Governo (CEGOV/UFRGS), com o apoio da Universidade Autônoma de Madrid. A Reunião é parte do esforço de aprofundamento das atividades de internacionalização da investigação e da docência no nível da pós-graduação. Ela também destaca o caráter interdisciplinar da instituição a partir das áreas temáticas previstas para o evento.',
+
+    //Theme
+    'Estado, sociedad' => 'Estado, sociedade',
+    'y mercado' => 'e mercado',
+    'nuevas perspectivas para el desarrollo' => 'novas perspectivas de desenvolvimento',
+    'Las instituciones neoliberales y la estrategia de promoción del desarrollo económico con protagonimdo del mercado, vaciamiento del papel del estado y escasa política social parecía que entraba en jaque con la crisis financiera internacional y la gran depresión. Ya a finales de los años 1990 se observaba una cierta tendencia de cambio en la estrategia de desarrollo de los países iberoamericanos, dado la incapacidad de ese modelo neoliberal para promover crecimiento económico con distribución de la renta. Esa tendencia también se ha manifestado en el mundo académico, con una constante búsqueda de revisión del paradigma dominante y la recuperación de una perspectiva teórica heterodoxa y multidisciplinar. Sin embargo, después de seis años desde la deflagración de la crisis, persisten los interrogantes políticos y teóricos sobre las nuevas estrategias para el desarrollo de la región. Los países emergentes están en un momento decisivo de definición de esas estrategias de desarrollo sostenido, no obstante, el debate teórico académico, a pesar de haber avanzado mucho en los últimos años, todavía no es capaz de ofrecer una respuesta mínimamente consensuada sobre varios aspectos chaves del desarrollo.' => "As instituições neoliberais e a estratégia de promoção do desenvolvimento econômico com protagonismo do mercado, o esvaziamento do papel do Estado e a escassa política social pareciam que entravam em xeque com a crise financeira internacional e a grande recessão. Já no final dos anos 1990 observava-se certa tendência de mudança na estratégia de desenvolvimento dos países ibero-americanos, dada a incapacidade desse modelo neoliberal em promover crescimento econômico com distribuição de renda. Essa tendência também se manifestou no mundo acadêmico, com uma busca de revisão do paradigma dominante e a recuperação de uma perspectiva teórica heterodoxa e multidisciplinar. No entanto, passados seis anos desde a deflagração dessa crise, continuam em aberto os questionamentos políticos e teóricos sobre as novas estratégias para o desenvolvimento da região. Os países emergentes estão num momento decisivo de definição de estratégias de desenvolvimento sustentável. O debate acadêmico, apesar de ter avançado muito nos últimos anos, ainda não é capaz de oferecer uma resposta minimamente consensual sobre vários aspectos chave do desenvolvimento.",
+    'En este contexto surgen varias cuestiones fundamentales para el estudio del desarrollo socioeconómico de la región y que serán objeto de debate en la II RISE. Se destaca, por un laco, el papel del Estado, i.e., la construcción de una agenda que defina las características de la actuación del Estado en el desarrollo, especialmente en el contexto de la globalización, con autonomía para tomar decisiones, articular el mercado y la política industrial, con un papel proactivo en la promoción del desarrollo, con una política fiscal y crediticia contra-cíclica, de estimulo a la modernización de las infraestructuras, del fortalecimiento de la industria y mejoras en la calidad de las políticas sociales. Se admite, además, la existencia de varias formas de capitalismo, con distintas combinaciones institucionales, destacando la importancia del Estado en la coordinación de políticas promotoras del crecimiento y de la productividad.' => "Nesse contexto surgem várias questões que são fundamentais para o estudo do desenvolvimento socioeconômico na região e que seriam objeto de debate no IIRISE. Destaca-se, por um lado, o papel do Estado, i.e., a construção de uma agenda que defina as características da sua atuação no desenvolvimento, especialmente no contexto da globalização, com autonomia para tomar decisões, articulando o mercado e a política industrial, com um papel proativo na promoção do desenvolvimento, por meio da atuação contracíclica da política fiscal e creditícia, do estímulo à modernização da infraestrutura, do fortalecimento da indústria e melhoria na qualidade das políticas sociais. Admite-se, além disso, a existência de varias formas de capitalismo, com distintas combinações institucionais, destacando a importância do Estado na coordenação de políticas promotoras do crescimento e da competitividade.",
+    'En fin, las demandas socioeconómicas de los países iberoamericanos colocan en la agenda de discusión cuestiones relevantes sobre las estrategias y obstáculos del desarrollo sostenido a largo plazo, y que deben analizarse desde el punto de vista teórico, político y multidisciplinar. En este sentido, la II RISE pretende debatir cuestiones relacionadas con los siguientes temas: el papel del estado en la socio-economía; el desarrollo en los países iberoamericanos: desafíos y perspectivas; democracia, ciudadanía y movimientos sociales: macroeconomía, sistemas financieros y regulación; demografía y desarrollo regional; empleo, calidad de vida y políticas sociales; desarrollo sostenido y medio-ambiente; desindustrialización y patrones de comercio; y relaciones internacionales e integración regional.' => "As demandas socioeconômicas nos países ibero-americanos colocam na agenda de discussão questões relativas às estratégias e os obstáculos ao desenvolvimento sustentável no longo prazo, e que devem ser analisados de um ponto de vista teórico e político multidisciplinar. Nesse sentido, o Segundo Encontro Iberoamericano de Socioeconomia discutirá os seguintes assuntos: o debate sobre o papel do Estado na Socioeconomia; Desenvolvimento nos Países Ibero-americanos: desafios e perspectivas; Democracia, Cidadania e Movimentos Sociais; Macroeconomia, Sistemas Financeiros e Regulação; Demografia e Desenvolvimento Regional; Emprego, Qualidade de Vida e Políticas Sociais; Desenvolvimento Sustentável e Meio Ambiente; Desindustrialização e Padrões de Comércio; e Relações Internacionais e Integração Regional.",
+
+    //Panels
+    'Mesas Temáticas' => '',
+    'El debate sobre el Estado de la Socio-economia' => 'O debate sobre o Estado da Socio-economia',
+    'Desarrollo en los Países Ibero-americanos: desafios y perspectivas' => 'Desenvolvimento nos Países Ibero-americanos: desafios e perspectivas',
+    'Democracia, Ciudadanía y Movimientos Sociales' => 'Democracia, Cidadania e Movimentos Sociais',
+    'Macroeconomía, Sistemas Financieros y Regulación' => 'Macroeconomia, Sistemas Financeiros e Regulação',
+    'Cultura, Desarrollo y Economía Creativa' => 'Cultura, Desenvolvimento e Economia Criativa',
+    'Empleo, Calidad de Vida y Políticas Sociales' => 'Emprego, Qualidade de Vida e Políticas Sociais',
+    'Desarrollo sostenible y Medio Ambiente' => 'Desenvolvimento Sustentável e Meio Ambiente',
+    'Desindustrialización y Patrones de Comercio' => 'Desindustrialização e Padrões de Comércio',
+    'Relaciones Internacionales e Integración Regional' => 'Relações Internacionais e Integração Regional',
+    'Ibero-América y Países Emergentes' => 'Ibero-América e Países Emergentes',
+
+
+    //Papers
+    'Envío de Comunicaciones' => 'Resumos',                             
+    'Enviar resúmenes hasta el 30 de Junio de 2015.' => 'Enviar resumo de até o dia 30 de Junho de 2015',
+    'Aviso de aceptación de la comunicación hasta el 30 de Julio de 2015.' => 'Aviso de aceite do resumo até o dia 30 de Julho de 2015.',
+    'El resumen deberá contener como elementos mínimos: ' => 'O resumo deverá conter como elementos minimos',
+    'Objetivo(s),' => 'Objetivos,',
+    'Metodología,' => 'Metodologia,',
+    'Principales resultados,' => 'Principais resultados,',
+    'Bibliografía más actual' => 'Referencias,',
+    'Nombres, email y créditos académicos de todos los autores' => 'Nome, email e status academico de todos os autores,',
+    'Deberá tener una extensión de hasta 500 palabras como máximo.' => 'Devera ter uma extensao maxima de ate 500 palavras,',
+    'Se remitirán en español o portugués e inglés' => 'Submetidos em Ingles, Espanhol ou Portugues,',
+    'Los idiomas del evento serán el español, el portugués y el inglés' => 'A lingua usada no enconrto serao o espanhol, o portugues, e o ingles.',
+    'Indicar a qué mesa temática se remite la comunicación.' => 'Indicar a mesa tematica do resumo',
+    '*La aceptación del resumen por el Comité Científico es el requisito imprescindible para presentar la comunicación en la RISE. No será necesario remitir la comunicación completa.' => 'The acceptance of the abstract by the Scientific Committee is the prerequisite for presenting your communication to the II RISE. It will not be necessary to submit the full paper.',
+    'Enviar Resumen' => 'Enviar Resumo',
+
+    //Deadlines
+    'Abre plazo para recibir las comunicaciones' => 'Abre prazo para recebimento de resumos',
+    'Finaliza plazo para recibir las comunicaciones' => 'Fim do prazo para receber as comunicações',
+    'Selección de comunicaciones' => 'Seleção dos resumos',
+    'Congresso' => 'Congresso',
+
 ];

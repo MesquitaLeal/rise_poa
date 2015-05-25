@@ -34,6 +34,9 @@ h3 {
     font-family: "AncillaryRegular", Arial, sans-serif;
     color: #3D687F;
     text-transform: uppercase;
+    border-left: 0px solid transparent; 
+    border-right: 30px solid transparent; 
+    height: 0; 
 }
 
 h2:first-of-type:before {
@@ -43,16 +46,6 @@ h2:first-of-type:before {
     position: absolute;
     top: -25px;
     left:-20px;
-}
-
-h2:after,
-h3:after {
-    width: 0;
-    height: 0;
-    border-left: 25px solid transparent;
-    font-size: 3rem;
-    position: relative;
-    content: "";
 }
 
 #home img:first-of-type {
@@ -73,16 +66,15 @@ h3:after {
 }
 
 #about h2 {
-    background-color: rgb(197, 198, 165);
-    max-width: 268px;
     padding-left: 30px;
     font-size: 3rem;
+    border-bottom: 55px solid #c5c6a5; 
+    width: 250px; 
 }
 
-#about h2:after{
-    border-top: 60px solid rgb(221, 224, 186);
-    top: 60px;
-    left:50px;
+#about h2:lang(en-US) {
+    border-bottom: 55px solid #c5c6a5; 
+    width: 280px;
 }
 
 #about img {
@@ -98,42 +90,37 @@ h3:after {
     background-color: #c1bca4;
 }
 
-#theme h2,
-#theme h3 {
-    background-color: rgb(216, 213, 182);
-    max-width: 420px;
+#theme h2 {
+    border-bottom: 45px solid #d8d5b6;
+    width: 430px;
     font-size: 2.3rem;
     padding-left: 15px;
 }
 
-#theme h2:after{
-    border-top: 60px solid #c1bca4;
-    top: 60px;
-    left:11px;
+#theme h2:lang(en-US) {
+    width: 380px;
+}
+
+#theme h2:lang(pt-BR) {
+    width: 460px;
 }
 
 #theme h2:last-of-type {
-    max-width: 283px;
+    width: 300px;
     margin-top: -2px;
 }
 
-#theme h2:last-of-type:after{
-    left:10px;
+#theme h2:last-of-type:lang(en-US) {
+    width: 330px;
 }
 
 #theme h3 {
+    border-bottom: 55px solid #d8d5b6;
+    width: 430px;
     font-size: 1.8rem;
-    margin-bottom: 110px;
     line-height: 1.6rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#theme h3:after {
-    border-top: 120px solid #c1bca4;
-    border-left: 55px solid transparent;
-    top: 70px;
-    left:15px;
+    margin-bottom: 110px;
+    padding-left: 15px;
 }
 
 #theme p {
@@ -148,25 +135,20 @@ h3:after {
     background-color: rgb(91, 138, 182);
 }
 
-#panels h2,
-#papers h2,
-#deadline h2,
-#contact h2 {
-    background-color: #c1bca4;
-    max-width: 430px;
+#panels h2 {
+    border-bottom: 45px solid #c1bca4;
+    width: 430px;
     font-size: 2.3rem;
     padding-left: 15px;
     margin-bottom: 50px;
 }
 
-#panels h2:before {
-    color: #FFFFFF;
+#panels h2:lang(en-US) {
+    width: 470px;
 }
 
-#panels h2:after {
-    border-top: 60px solid rgb(91, 138, 182);
-    top: 65px;
-    left:28px;
+#panels h2:before {
+    color: #FFFFFF;
 }
 
 .panels-list li,
@@ -193,13 +175,20 @@ h3:after {
     margin-left: -8px;
 }
 
-#members h2 {
-    font-size: 17px
+#papers h2 {
+    border-bottom: 45px solid #c1bca4;
+    width: 600px;
+    font-size: 2.3rem;
+    padding-left: 15px;
+    margin-bottom: 50px;
 }
 
-#members li {
-    list-style: none;
-    font-size: 14px;
+#papers h2:lang(pt-BR) {
+    width: 250px;
+}
+
+#papers h2:lang(en-US) {
+    width: 300px;
 }
 
 #papers {
@@ -211,16 +200,6 @@ h3:after {
 #papers li,
 #papers p {
     color: rgb(145, 22, 60);
-}
-
-#papers h2 {
-    max-width: 620px;
-}
-
-#papers h2:after {
-    border-top: 60px solid rgb(216, 213, 182);
-    top: 65px;
-    left:51px;
 }
 
 #papers ol > li,
@@ -239,19 +218,19 @@ h3:after {
 }
 
 #deadline h2{
-    background-color: rgb(221, 224, 186);
-    max-width: 203px;
-    color: rgb(145, 22, 60);
+    border-bottom: 45px solid #DDE0BA;
+    width: 220px;
+    font-size: 2.3rem;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+#deadline h2:lang(en-US) {
+    width: 280px;
 }
 
 #deadline h2:before {
     color: #FFFFFF;
-}
-
-#deadline h2:after {
-    border-top: 60px solid #c1bca4;
-    top: 65px;
-    left:15px;
 }
 
 #deadline h6 {
@@ -288,19 +267,20 @@ h3:after {
 }
 
 #contact h2 {
-    background-color: rgb(221, 224, 186);
+    border-bottom: 45px solid #DDE0BA;
+    width: 270px;
+    font-size: 2.3rem;
+    padding-left: 15px;
+    margin-bottom: 50px;
     color: rgb(114, 6, 50);
-    max-width: 273px;
+}
+
+#contact h2:lang(en-US) {
+    width: 250px;
 }
 
 #contact h2:before {
     color: rgb(221, 224, 186);
-}
-
-#contact h2:after {
-    border-top: 60px solid rgb(114, 6, 50);
-    top: 65px;
-    left:15px;
 }
 
 #contact a {

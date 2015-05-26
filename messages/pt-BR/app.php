@@ -21,10 +21,10 @@ return [
     'Abstracts ID' => '',
     'Abstracts Users' => '',
     'Are you sure you want to delete this item?' => '',
-    'Autor' => '',
+    'Autor' => 'Autor',
     'Contacto' => 'Contato',
     'Contraseña' => '',
-    'Correo Electrónico' => '',
+    'Correo Electrónico' => 'E-mail',
     'Create' => 'Criar',
     'Create Abstracts' => '',
     'Create Abstracts Users' => '',
@@ -89,7 +89,7 @@ return [
 
 
     //Papers
-    'Envío de Comunicaciones' => 'Resumos',                             
+    'Envío de Comunicaciones' => 'Resumos',
     'Enviar resúmenes hasta el 30 de Junio de 2015.' => 'Enviar resumo de até o dia 30 de Junho de 2015',
     'Aviso de aceptación de la comunicación hasta el 30 de Julio de 2015.' => 'Aviso de aceite do resumo até o dia 30 de Julho de 2015.',
     'El resumen deberá contener como elementos mínimos: ' => 'O resumo deverá conter como elementos minimos',

@@ -21,10 +21,10 @@ return [
     'Abstracts ID' => '',
     'Abstracts Users' => '',
     'Are you sure you want to delete this item?' => '',
-    'Autor' => '',
+    'Autor' => 'Author',
     'Contacto' => 'Contact',
     'Contraseña' => '',
-    'Correo Electrónico' => '',
+    'Correo Electrónico' => 'E-mail',
     'Create' => '',
     'Create Abstracts' => '',
     'Create Abstracts Users' => '',
@@ -37,13 +37,13 @@ return [
 
     'Guardar' => '',
     'ID' => '',
-
+    'Mesa Temática' => 'Research Network',
     'Name' => '',
     'Nombre Completo' => '',
     'Panels' => '',
     'Registrarse' => '',
     'Reset' => '',
-    'Resumen' => '',
+    'Resumen' => 'Abstract',
     'Search' => '',
 
     'Update' => '',

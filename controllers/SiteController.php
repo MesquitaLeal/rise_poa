@@ -10,7 +10,7 @@ use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\Users;
 
-class SiteController extends Controller
+class SiteController extends InitController
 {
 	public function behaviors()
 	{
@@ -111,24 +111,5 @@ class SiteController extends Controller
 		$_POST['_lang'] = 'pt-BR';
 		$this->init();
 		return $this->goHome();
-	}
-
-	public function homes($x){
-		parent::init();
-		Yii::$app->language = $x;
-		Yii::$app->session['_lang'] = $x;
-		return $this->actionIndex();
-	}
-	public function init(){
-		$app = Yii::$app;
-		if (isset($_POST['_lang']))
-		{
-			$app->language = $_POST['_lang'];
-			$app->session['_lang'] = $app->language;
-		}
-		else if (isset($app->session['_lang']))
-		{
-			$app->language = $app->session['_lang'];
-		}
 	}
 }

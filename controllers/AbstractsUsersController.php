@@ -12,7 +12,7 @@ use yii\filters\VerbFilter;
 /**
  * AbstractsUsersController implements the CRUD actions for AbstractsUsers model.
  */
-class AbstractsUsersController extends Controller
+class AbstractsUsersController extends InitController
 {
     public function behaviors()
     {

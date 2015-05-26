@@ -12,7 +12,7 @@ use yii\filters\VerbFilter;
 /**
  * PanelsController implements the CRUD actions for Panels model.
  */
-class PanelsController extends Controller
+class PanelsController extends InitController
 {
     public function behaviors()
     {

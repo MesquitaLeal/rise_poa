@@ -15,7 +15,7 @@ use yii\filters\AccessControl;
 /**
  * AbstractsController implements the CRUD actions for Abstracts model.
  */
-class AbstractsController extends Controller
+class AbstractsController extends InitController
 {
     public function behaviors()
     {
@@ -91,7 +91,7 @@ class AbstractsController extends Controller
         } else {
             return $this->render('create', [
                 'model' => $model,
-                'abstractUser' => $abstractUser,
+                //'abstractUser' => $abstractUser,
             ]);
         }
     }

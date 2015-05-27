@@ -34,7 +34,7 @@ return [
     'Delete' => 'Deletar',
     'Enviar' => '',
     'Enviar Resumen' => '',
-    'Envios' => '',
+    'Envío' => 'Resumo',
     'Fechas' => 'Prazo',
     'Guardar' => '',
     'ID' => '',

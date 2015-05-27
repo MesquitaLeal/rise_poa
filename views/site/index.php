@@ -53,7 +53,7 @@ $this->title = 'RISE';
 
     <div id="panels">
         <div class="row content">
-        	<div class="col-lg-12">
+        	<div class="col-lg-6">
 	        	<div id='panels-title'>
 	        		<h2><?= Yii::t('app', 'Mesas Temáticas');?></h2>
 	        	</div>
@@ -88,7 +88,7 @@ $this->title = 'RISE';
 						</ul>
 					</div>
 					<div class="col-lg-6">
-						<h2>Comite Científico (preliminar)</h2>
+						<h2 id="left-side">Científico</h2>
 						<ul>
 							<li>Dra. Magna Inácio (UFMG)</li>
 							<li>Dra. Leda Paulani (USP)</li>
@@ -102,6 +102,22 @@ $this->title = 'RISE';
 							<li>Dr. Ricardo Carneiro (World Bank)</li>
 							<li>Dr. Paulo Nogueira Batista (IMF)</li>
 							<li>Dr. Miguel Atienza (U. Antofagasta - Chile)</li>
+						</ul>
+					</div>
+				<div class="row">
+					<div class="col-lg-5">
+						<h2>Organizador</h2>
+					</div>
+					<div class="col-lg-7">
+						<ul>
+							<li>Dr. Pedro Cezar Dutra Fonseca (UFRGS)</li>
+							<li>Dr. Fernando Ferrari Filho (UFRGS)</li>
+							<li>Dr. André Moreira Cunha (UFRGS)</li>
+							<li>Dr. Marco Aurélio Chaves Cepik (UFRGS)</li>
+							<li>Dr. Ricardo Dathein (UFRGS)</li>
+							<li>Dra. Sonia Maria Ranincheski (UFRGS)</li>
+							<li>Dr. Leandro Valiati (UFRGS)</li>
+							<li>Dr. Julimar da Silva Bichara (UAM)</li>
 						</ul>
 					</div>
 
@@ -146,19 +162,19 @@ $this->title = 'RISE';
         </div>
         <div class="row content box">
         	<div class="col-sm-3">
-        		<h6>01/04/2015</h6>
+        		<h6><?= Yii::t('app', '01/04/2015');?></h6>
         		<p><?= Yii::t('app', 'Abre plazo para recibir las comunicaciones');?></p>
         	</div>
         	<div class="col-sm-3">
-        		<h6>30/06/2015</h6>
+        		<h6><?= Yii::t('app', '30/06/2015');?></h6>
         		<p><?= Yii::t('app', 'Finaliza plazo para recibir las comunicaciones');?></p>
         	</div>
         	<div class="col-sm-3">
-        		<h6>30/07/2015</h6>
+        		<h6><?= Yii::t('app', '30/07/2015');?></h6>
         		<p><?= Yii::t('app', 'Selección de comunicaciones');?></p>
         	</div>
         	<div class="col-sm-3">
-        		<h6>19 a 21 <br>NOV 2015</h6>
+        		<h6><?= Yii::t('app', '19 a 21');?><br><?= Yii::t('app', 'NOV 2015');?></h6>
         		<p><?= Yii::t('app', 'Congresso');?></p>
         	</div>
         </div>

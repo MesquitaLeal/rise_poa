@@ -37,7 +37,7 @@ return [
 
     'Guardar' => '',
     'ID' => '',
-    'Mesa Temática' => 'Research Network',
+    'Mesa Temática' => 'Panel',
     'Name' => '',
     'Nombre Completo' => '',
     'Panels' => '',
@@ -72,7 +72,7 @@ return [
     'En fin, las demandas socioeconómicas de los países iberoamericanos colocan en la agenda de discusión cuestiones relevantes sobre las estrategias y obstáculos del desarrollo sostenido a largo plazo, y que deben analizarse desde el punto de vista teórico, político y multidisciplinar. En este sentido, la II RISE pretende debatir cuestiones relacionadas con los siguientes temas: el papel del estado en la socio-economía; el desarrollo en los países iberoamericanos: desafíos y perspectivas; democracia, ciudadanía y movimientos sociales: macroeconomía, sistemas financieros y regulación; demografía y desarrollo regional; empleo, calidad de vida y políticas sociales; desarrollo sostenido y medio-ambiente; desindustrialización y patrones de comercio; y relaciones internacionales e integración regional.' => "The socioeconomic demands, particularly in Latin American countries, put the issues into perspective for discussion on strategies and obstacles to sustainable development in the long term, and it should be analyzed from a multidisciplinary perspective. Accordingly, the 2nd Ibero-American Meeting on Socio-Economics will discuss the following issues: the state of the art in Socio-Economy Studies; development and varieties of Capitalism; democracy, citizenship and social movements; macroeconomics, financial systems and prudential regulation; culture, development and creative economy; employment, well-being, inequality and social policies; sustainable development, territory and environment; industry and international trade; globalization, international relations and regional integration.",
 
     //Panels
-    'Mesas Temáticas' => 'Research Network',
+    'Mesas Temáticas' => 'Panels',
     'El debate sobre el Estado de la Socio-economia' => 'The State of the Art in Socio-Economy Studies',
     'Desarrollo en los Países Ibero-americanos: desafios y perspectivas' => 'Development and Varieties of Capitalism: comparing experiences',
     'Democracia, Ciudadanía y Movimientos Sociales' => 'Democracy, Citizenship and Social Movements',
@@ -85,9 +85,10 @@ return [
     'Ibero-América y Países Emergentes' => 'Ibero-America and Emerging Countries',
 
     //Papers
+    'Envío' => 'Submissions',
     'Envío de Comunicaciones' => 'Abstracts',
-    'Enviar resúmenes hasta el 30 de Junio de 2015.' => 'The deadline for submitting proposals: June 30, 2015',
-    'Aviso de aceptación de la comunicación hasta el 30 de Julio de 2015.' => ' Acceptance notifications will be sent by July 30, 2015.',
+    'Enviar resúmenes hasta el 30 de Junio de 2015.' => ' Deadline for submissions: June 30th, 2015',
+    'Aviso de aceptación de la comunicación hasta el 30 de Julio de 2015.' => 'Notification of selected papers: July 30th, 2015',
     'El resumen deberá contener como elementos mínimos: ' => 'The abstract shall contain',
     'Objetivo(s),' => 'Objectives,',
     'Metodología,' => 'Methodology,',
@@ -97,13 +98,18 @@ return [
     'Deberá tener una extensión de hasta 500 palabras como máximo.' => 'Paper must have an extension of up to 500 words,',
     'Se remitirán en español o portugués e inglés' => 'Papers will be submitted in English, Spanish or Portuguese,',
     'Los idiomas del evento serán el español, el portugués y el inglés' => 'The languages used in the meeting for the presentation of the research will be English, Spanish or Portuguese',
-    'Indicar a qué mesa temática se remite la comunicación.' => 'You must select your Research Network',
+    'Indicar a qué mesa temática se remite la comunicación.' => 'You must select a Panel',
     '*La aceptación del resumen por el Comité Científico es el requisito imprescindible para presentar la comunicación en la RISE. No será necesario remitir la comunicación completa.' => 'The acceptance of the abstract by the Scientific Committee is the prerequisite for presenting your communication to the II RISE. It will not be necessary to submit the full paper.',
     'Enviar Resumen' => 'Send abstract',
 
     //Deadlines
-    'Abre plazo para recibir las comunicaciones' => '',
-    'Finaliza plazo para recibir las comunicaciones' => '',
-    'Selección de comunicaciones' => '',
-    'Congresso' => 'Congress',
+    '01/04/2015' => 'April 1st, 2015',
+    'Abre plazo para recibir las comunicaciones' => 'Call for submissions',
+    '30/06/2015' => 'June 30th, 2015',
+    'Finaliza plazo para recibir las comunicaciones' => 'Deadline for submissions',
+    '30/07/2015' => 'July 30th, 2015',
+    'Selección de comunicaciones' => 'Selected Papers',
+    '19 a 21' => 'November',
+    'NOV 2015' => '19th - 21st, 2015',
+    'Congresso' => 'Regional Meeting',
 ];

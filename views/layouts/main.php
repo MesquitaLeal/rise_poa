@@ -19,7 +19,7 @@ AppAsset::register($this);
 	<?= Html::csrfMetaTags() ?>
 	<title><?= Html::encode($this->title) ?></title>
 	<?php $this->head() ?>
-
+	<link rel="icon" href="<?php echo Yii::$app->request->baseUrl; ?>/favicon.png" />
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 
 </head>
@@ -33,7 +33,7 @@ AppAsset::register($this);
 			elseif(Yii::$app->language == 'es-ES')
 				$xy = 'Español';
 			else
-				$xy = 'Português (Brazil)';
+				$xy = 'Português';
 			NavBar::begin([
 				'brandLabel' => 'rise',
 				//'brandUrl' => Yii::$app->homeUrl,
@@ -48,14 +48,14 @@ AppAsset::register($this);
 					['label' => Yii::t('app', 'Sobre'), 'url' => ['/site/index', '#'=>'about']],
 					['label' => Yii::t('app', 'Tema'), 'url' => ['/site/index', '#'=>'theme']],
 					['label' => Yii::t('app', 'Mesas'), 'url' => ['/site/index', '#'=>'panels']],
-					['label' => Yii::t('app', 'Envios'), 'url' => ['/site/index', '#'=>'papers']],
+					['label' => Yii::t('app', 'Envío'), 'url' => ['/site/index', '#'=>'papers']],
 					['label' => Yii::t('app', 'Fechas'), 'url' => ['/site/index', '#'=>'deadline']],
 					['label' => Yii::t('app', 'Contacto'), 'url' => ['/site/index', '#'=>'contact']],
 					['label' => $xy,
 						'items' => [
 							['label' => 'English', 'url' => ['/site/us']],
 							['label' => 'Español', 'url' => ['/site/es']],
-							['label' => 'Português (Brazil)', 'url' => ['/site/pt']],
+							['label' => 'Português', 'url' => ['/site/pt']],
 						],
 					],
 					Yii::$app->user->isGuest ?
@@ -80,6 +80,7 @@ AppAsset::register($this);
 
 	<footer class="footer">
 		<div class="container">
+			<p>Website developed by <a href='http://www.cegov.ufrgs.br'>CEGOV's IT and Communications Coordinations</a></p>
 		</div>
 	</footer>
 

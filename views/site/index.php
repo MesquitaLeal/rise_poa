@@ -7,9 +7,8 @@ $this->title = 'RISE';
 
     <div id="home">
     	<img src="images/home.png" />
-    	<?= Html::img('images/' . Yii::$app->language . '/logo_rise.png');?>
-    	
-		
+    	<!--<?= Html::img('images/logos.png', array('class'=>'img-logo img-responsive'));?>-->
+    	<?= Html::img('images/' . Yii::$app->language . '/logo_rise.png');?>		
     </div>
 
     <div id="about">

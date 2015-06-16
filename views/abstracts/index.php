@@ -13,20 +13,23 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="content abstracts-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
-
+    <!--
     <p>
         <?= Html::a(Yii::t('app', 'Create Abstracts'), ['create'], ['class' => 'btn btn-success']) ?>
     </p>
-
+    -->
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
             'author',    
-            'text:ntext',
+            //'text:ntext',
             'panel',
 
-            ['class' => 'yii\grid\ActionColumn'],
+            [
+                'class' => 'yii\grid\ActionColumn',
+                'template' => '{view}',
+            ],
         ],
     ]); ?>
 

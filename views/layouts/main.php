@@ -21,7 +21,6 @@ AppAsset::register($this);
 	<?php $this->head() ?>
 	<link rel="icon" href="<?php echo Yii::$app->request->baseUrl; ?>/favicon.png" />
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-
 </head>
 <body>
 

@@ -53,6 +53,10 @@ footer p {
     color: #FFFFFF;
 }
 
+#home {
+    position: relative;
+}
+
 #home img:first-of-type {
     max-width: 100%;
 }
@@ -64,6 +68,13 @@ footer p {
     left: 10%;
     padding: 60px 25px;
     background-color: rgba(221, 224, 186, 0.7);
+}
+
+#home .img-logo {
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+    max-width: 500px;
 }
 
 #about {
@@ -354,6 +365,14 @@ footer p {
 .not-set {
     color: #c55;
     font-style: italic;
+}
+
+.voltar {
+    float: right;
+}
+
+.abstracts-view h1 {
+    text-align: center;
 }
 
 /* add sorting icons to gridview sort links */

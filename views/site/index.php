@@ -7,8 +7,8 @@ $this->title = 'RISE';
 
     <div id="home">
     	<img src="images/home.png" />
-    	<!--<?= Html::img('images/logos.png', array('class'=>'img-logo img-responsive'));?>-->
-    	<?= Html::img('images/' . Yii::$app->language . '/logo_rise.png');?>		
+    	<?= Html::img('images/' . Yii::$app->language . '/logo_rise.png');?>
+    	<?= Html::img('images/logos.png', array('class'=>'img-logo img-responsive'));?>		
     </div>
 
     <div id="about">
@@ -177,6 +177,80 @@ $this->title = 'RISE';
         		<p><?= Yii::t('app', 'Congresso');?></p>
         	</div>
         </div>
+    </div>
+
+    <div id="infos">
+    	<div class="row content">
+    		<div class="col-lg-12">
+    			<h2><?= Yii::t('app', 'Info Util');?></h2>
+    		</div>
+    	</div>
+    	<div class="row content">
+	    	<div class="col-sm-3">
+	    		<img src="images/icone-info.png" data-toggle="modal" data-target="#myModal"/><br/>
+	    		<p class="link-title"><?= Yii::t('app', 'General');?></p>
+
+	    		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog modal-lg">
+				    <div class="modal-content">
+				    	 <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title">General</h4>
+					      </div>
+					      <div class="modal-body">
+					      	<div class="row">
+						      	<div class="col-sm-6">
+							        <h6>UFRGS</h6>
+									<p>La Universidade Federal do Rio Grande do Sul, en Porto Alegre, es una institución con 80 años de atividades, reconocida nacional y internacionalmente. Según la evaluación del Ministerio de la Educación brasileño, UFRGS es considerada la mejor universidad de Brasil. La Universidad ofrece cursos en todas las áreas del conocimiento y en todos los niveles de formación, de instituto a posgrado. Actualmente son ofrecidos 93 cursos de grado y más de 80 cursos de posgrado en sus cinco campi: Centro, Vale, Saúde, Olímpico e Litoral Norte. <br/> Las actividades del II RISE serán realizadas en el Campus Centro, donde está el Programa e Posgrado en Economía, en la Facultad de Ciencias Económicas de UFRGS.</p>
+
+									<h6>AEROPUERTO </h6>
+									<p>El Aeropuerto Internacional Salgado Filho está ubicado a 10km del centro de la ciudad de Porto Alegre. Diversas empresas de autobuses y taxis ofrecen transporte al aeropuerto.</p>
+								</div>
+
+								<div class="col-sm-6">
+									<h6><?=Yii::t('app', 'Transporte')?></h6>
+									<p>Táxi e Ônibus Urbanos em Porto Alegre</p>
+									<p>EPTC – Empresa Pública de Transporte e Circulação (informações sobre táxis, lotações, ônibus)</p>
+									<p>Fone: 118 ou 156 | www.eptc.com.br</p>
+									<p>TRENSURB - Região Metropolitana de Porto Alegre (saiba sobre serviços, itinerários e	horários)</p>
+									<p>Fone: (51) 3363.8477 | www.trensurb.com.br/home.php</p>
+								
+									<h6>COMUNICAÇÃO</h6>
+
+									Para ligações nacionais, utilize as operadoras e disque:
+									00 + (14) ou (21) ou (25) + nº da operadora + cód. de área + número desejado;
+
+									Para ligações internacionais, disque:
+									00 + (14) ou (21) ou (25) nº da operadora + cód. do país + cód. da cidade + número desejado.
+
+									<h6>TELEFONES ÚTEIS</h6>
+									190 Polícia Militar
+									197 Polícia Civil
+									51 3235.9000 Polícia Federal
+									193 Bombeiros
+									192 Samu
+									(51) 3371.2703 DPTUR – Delegacia de Polícia ao Turista 
+								</div>
+						      </div>
+					      </div>
+				    </div><!-- /.modal-content -->
+				  </div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+
+	    	</div>
+	    	<div class="col-sm-3">
+	    		<img src="images/icone-poa.png" /><br/>
+	    		<p class="link-title"><?= Yii::t('app', 'Porto Alegre');?></p>
+	    	</div>
+	    	<div class="col-sm-3">
+	    		<img src="images/icone-cultura.png" /><br/>
+	    		<p class="link-title"><?= Yii::t('app', 'Cultural');?></p>
+	    	</div>
+	    	<div class="col-sm-3">
+	    		<img src="images/icone-hotel.png" /><br/>
+	    		<p class="link-title"><?= Yii::t('app', 'Hoteles');?></p>
+	    	</div>
+	    </div>
     </div>
 
     <div id="contact">

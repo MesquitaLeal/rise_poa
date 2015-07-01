@@ -49,6 +49,7 @@ AppAsset::register($this);
 					['label' => Yii::t('app', 'Mesas'), 'url' => ['/site/index', '#'=>'panels']],
 					['label' => Yii::t('app', 'Envío'), 'url' => ['/site/index', '#'=>'papers']],
 					['label' => Yii::t('app', 'Fechas'), 'url' => ['/site/index', '#'=>'deadline']],
+					['label' => Yii::t('app', 'Info'), 'url' => ['/site/index', '#'=>'infos']],
 					['label' => Yii::t('app', 'Contacto'), 'url' => ['/site/index', '#'=>'contact']],
 					['label' => $xy,
 						'items' => [
@@ -70,9 +71,9 @@ AppAsset::register($this);
 
 
 		<div>
-			<?= Breadcrumbs::widget([
+			<!--<?= Breadcrumbs::widget([
 				'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-			]) ?>
+			]) ?>-->
 			<?= $content ?>
 		</div>
 	</div>

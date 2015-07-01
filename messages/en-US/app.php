@@ -30,14 +30,14 @@ return [
     'Create Abstracts Users' => '',
     'Create Panels' => '',
     'Create Users' => '',
-    'Crédito Académico' => '',
+    'Crédito Académico' => 'Academic Status',
     'Delete' => '',
     'Enviar' => 'Send',
     'Enviar Resumen' => '',
 
     'Guardar' => '',
     'ID' => '',
-    'Mesa Temática' => 'Panel',
+    'Mesa Tematica' => 'Panel',
     'Name' => '',
     'Nombre Completo' => '',
     'Panels' => '',
@@ -58,6 +58,7 @@ return [
     'Mesas' => 'Panels',
     'Sobre' => 'About',
     'Tema' => 'Theme',
+    'Info' => '',
 
     //About
     'Fundada en 1989, la Sociedad para el Desarrollo de la Socioeconomía (Society for the Advancement of Socio-Economics – SASE) es una institución internacional con miembros en más de cincuenta países. La SASE organiza una reunión anual principal, además de reuniones regionales, eventos académicos locales, y publica una revista, la Socio-Economic Review. En paralelo a la creación de la sección Iberoamericana de la SASE, fue organizada en 2013, en la Universidad Autónoma de México, la Primera Reunión Iberoamericana de Socioeconomía, el primer encuentro regional de la SASE.' => 'Founded in 1989, the Society for the Advancement of Socio-Economics (SASE) is an international organization that comprises members in over fifty countries. SASE organizes a major annual meeting, as well as regional meetings, local academic events, and issues the Socio-Economic Review. Parallel to the creation of the Ibero-American section of SASE, the First Ibero-American Regional Socio-Economics Meeting was organized, in 2013, in Mexico National Autonomous University.',
@@ -87,8 +88,8 @@ return [
     //Papers
     'Envío' => 'Submissions',
     'Envío de Comunicaciones' => 'Abstracts',
-    'Enviar resúmenes hasta el 30 de Junio de 2015.' => ' Deadline for submissions: June 30th, 2015',
-    'Aviso de aceptación de la comunicación hasta el 30 de Julio de 2015.' => 'Notification of selected papers: July 30th, 2015',
+    'Enviar resúmenes hasta el 30 de Septiembre de 2015.' => ' Deadline for submissions: September 30th, 2015',
+    'Aviso de aceptación de la comunicación hasta el 15 de Octubre de 2015.' => 'Notification of selected papers: October 15th, 2015',
     'El resumen deberá contener como elementos mínimos: ' => 'The abstract shall contain',
     'Objetivo(s),' => 'Objectives,',
     'Metodología,' => 'Methodology,',
@@ -105,11 +106,136 @@ return [
     //Deadlines
     '01/04/2015' => 'April 1st, 2015',
     'Abre plazo para recibir las comunicaciones' => 'Call for submissions',
-    '30/06/2015' => 'June 30th, 2015',
+    '30/09/2015' => 'Sept. 30th, 2015',
     'Finaliza plazo para recibir las comunicaciones' => 'Deadline for submissions',
-    '30/07/2015' => 'July 30th, 2015',
+    '15/10/2015' => 'Oct. 15th, 2015',
     'Selección de comunicaciones' => 'Selected Papers',
     '19 a 21' => 'November',
     'NOV 2015' => '19th - 21st, 2015',
     'Congresso' => 'Regional Meeting',
+
+
+    //General
+    'General'=> 'General',
+    'Fuente' => 'Source',
+    'La Universidade Federal do Rio Grande do Sul, en Porto Alegre, es una institución con 80 años de atividades, reconocida nacional y internacionalmente. Según la evaluación del Ministerio de la Educación brasileño, UFRGS es considerada la mejor universidad de Brasil. La Universidad ofrece cursos en todas las áreas del conocimiento y en todos los niveles de formación, de instituto a posgrado. Actualmente son ofrecidos 93 cursos de grado y más de 80 cursos de posgrado en sus cinco campi: Centro, Vale, Saúde, Olímpico e Litoral Norte. <br/> Las actividades del II RISE serán realizadas en el Campus Centro, donde está el Programa e Posgrado en Economía, en la Facultad de Ciencias Económicas de UFRGS.' => 'The Federal University of Rio Grande do Sul, in Porto Alegre, with its more than 80 years of activities, is renowned nationally and worldwide. According to the evaluation published by the Brazilian Ministry of Education, UFRGS is considered the best university in Brasil. The University offers programs from all fields of knowledge and in all levels, from middle school to graduate programs. Currently, 93 undergraduate programs and 80 graduate programs are offered in UFRGS five campi, called Vale, Centro, Saúde, Olímpico and Litoral Norte. <br/> II RISE’s activities will take place mainly on Campus Centro, where is located the Graduate Program in Economics, from the Faculty of Economic UFRGS.',
+    'Aeropuerto' => 'Airport',
+    'El Aeropuerto Internacional Salgado Filho está ubicado a 10km del centro de la ciudad de Porto Alegre. Diversas empresas de autobuses y taxis ofrecen transporte al aeropuerto.' => 'Salgado Filho International Airport is located 10km from the city center of Porto Alegre. A number of bus and taxi companies provide transport to the airport.',
+    'Transporte' => 'Transport',
+    'Empresa Pública de Transporte y Circulación (informaciones sobre taxis, microbuses y buses)' => 'Public Transport and Circulation Company (information on taxis, buses and mini coaches)',
+    'Teléfono' => 'Phone',
+    'Región Metropolitana de Porto Alegre (sepa sobre servicios, itinerarios y horarios)' => 'Metropolitan Area of Porto Alegre (information on services, schedules and times)',
+    'Comunicación' => 'Communication',
+    'Para llamadas locales use el código local de la operadora y pulse: <br/>0 + (14) o (21) o (25) + código de área (sin el 0) + número deseado;' => 'For domestic calls use the local operator code and dial:<br/>0 + (14) or (21) or (25) + area code (without the 0) + number;',
+    'Para llamadas internacionales, pulse: <br/> 00 + (14) o (21) o (25) + el código del país + código de la ciudad + número deseado.' => 'For international calls, dial:<br/>00 + (14) or (21) or (25) + country code + city code + number',
+    'TELÉFONOS UTILES' => 'EMERGENCY TELEPHONES',
+    'Emergencias' => 'Emergencies',
+    'Policía Civil de RS' => 'Rio Grande do Sul Civil Police',
+    'Policía Federal de RS' => 'Federal Police of Rio Gande do Sul',
+    'Bombeiros' => 'Fire Station',
+    'Samu' => 'Samu - Mobile First - Aid Service',
+    'Jefatura de Policía al Turista' => 'Police Services for Tourists',
+
+    //Porto Alegre
+    'Porto Alegre es el polo de preservación e irradiaciones de la historia gaúcha, del folclor, de los hábitos y de las creencias de los gaúchos. Y lo hace de una forma peculiar, que da valor a las tradiciones sin perder el dinamismo y la sintonía con la modernidad propia de un centro cosmopolita. Porto Alegre es sinónimo de otro Brasil, que se destinos tropicales de sol y mar y no solo por el paisaje, sino porque hace de la cultura su especialidad. Esta diferencia se expresa desde la música hasta la poesía, desde la literatura hasta las artes plásticas y visuales, desde la arquitectura hasta los hábitos y modo de vida de su gente.' => 'Porto Alegre is the hub of the Gaúcho history’s preservation and continuity, along with the folklore, habits and beliefs of this people. And this is achieved through a peculiar means, which values tradition without neglecting dynamism and the harmony maintained with the modernity of a truly cosmopolitan center. Porto Alegre is synonymous with a Brazil apart, differing from the most recognized tropical destinations with sun and sea. It differs not only in terms of landscape, but because it makes a specialty of its culture. These differences are expressed in everything from music to poetry, literature to the fine arts, from architecture to the habits and lifestyles of its inhabitants.',
+    'Localización estratégica' => 'Strategic Location',
+    'Porto Alegre es un punto estratégico del Mercosur y centro geográfico de las principales rutas del Cono Sur, equidistante del eje Buenos Aires/Argentina (1.063km), Montevideo/Uruguay (890km), São Paulo (1.109km) y Río de Janeiro (1.558km). La ciudad está ligada a carreteras federales que permiten la conexión a otros estados de Brasil, de Uruguay y de Argentina, países que hacen frontera con el estado de Rio Grande do Sul. El Aeropuerto Internacional Salgado Filho, en expansión está ubicada a solamente 15 minutos del centro de la ciudad, atendiendo a un movimiento promedio de más de 650 mil pasajeros por mes.' => 'Porto Alegre is a strategic point in Mercosur, and the geographic center of the leading routes of the Southern Cone, equidistant to the axes of Buenos Aires/Argentina (1,063 km), Montevideo/Uruguay (890 km), São Paulo (1,109 km) and Rio de Janeiro (1,558 km). The city is linked to federal roadways that provide access to other Brazilian states, Uruguay and Argentina, countries that border the state of Rio Grande do Sul. The Salgado Filho International Airport, currently being expanded, is located just 15 minutes from the city center, catering to an average flow of 650,000 passengers per month.',
+    'Itinerario a pie por el Centro Histórico' => 'Route by Foot Through',
+    'El itinerario a pie puede empezar por el Centro Histórico, región revitalizada, donde la ciudad nació hace 242 años y que oferece un tour por importantes y movidos espacios culturales, iglesias, palacios y monumentos. Allí está el 80% de los edificios que son los guardianes de la historia del estado, como el Memorial de Rio Grande do Sul, el Museo de Artes del Estado, con un atrayente bistrô al aire libre, y el Santander Cultural, con bar, restaurante, café y cine. Todos ellos juntito a la histórica Praça da Alfândega. Además de la Casa de la Cultura Mário Quintana, cuyo edificio fue listado como patrimonio histórico y homenajea grandes nombres de la cultura del estado de Rio Grande do Sul. Como un museo al aire libre, la región de la Praça da Matriz abriga la Catedral Metropolitana y el Palacio Piratini, cuyos frescos valen ser conferidos, el Solar dos Câmara y el Theatro São Pedro, la niña de los ojos de los gaúchos. El gran icono del Centro Histórico es el neoclásico Mercado Público Central, edificio de 1869 levantado em la época de la esclavitud y que guarda muchas historias y creencias relacionadas a la memoria y al imaginario de la ciudad.' => 'Historical Center The route taken by foot can kick off in Centro Histórico (Historical Center), a region Thiago Belinksi 11 recently revitalized, and from where the city initially took route 242 years ago. It offers a tour through important and bustling cultural spaces, churches, manor houses and monuments. Eighty percent of the state’s historical buildings are concentrated in the region, such as the Memorial of Rio Grande do Sul, the State Art Museum, with an attractive outdoor bistro restaurant, and the Santander Cultural Center, with a bar, restaurant, coffee shop and cinema. They all surround the historical Praça da Alfândega. Close by is the Mário Quintana Cultural Center, the building of which was declared a historical heritage site and pays tribute to important names in the Rio Grande do Sul cultural scene. Forming an outdoor museum, the Praça da Matriz is home to the Metropolitan Cathedral and Palácio Piratini (legislative buildings) – whose alfresco artworks are worth a visit –, the Solar dos Câmara manor house and the São Pedro Theater, the pride and joy of the Gaúcho people. Another icon of Centro Histórico is the neoclassic Central Public Market, dated 1869 and erected at the time of slavery. It is the epicenter of many tales and beliefs linked to the memory and imagination of the city.',
+    'La vida del “Lado de Afuera”' => 'Life “Outside”',
+    'Los finales de semana, especialmente los domingos, son dedicados al popular Brique da Redenção, tradicional feria que se realiza todos los domingos en la extensión de la Avenida José Bonifácio, junto al Parque Farroupilha, o Parque da Redenção, en Porto Alegre. En el parque, la ciudad muestra su espíritu. Amantes de la vida al aire libre, miles de portoalegrenses aprovechan el área verde de 40 hectáreas para pasear, caminar, correr, encontrar a amigos, tumbarse al sol y tomar chimarrão. Espacios como el Parque Moinhos de Vento y Marinha do Brasil también forman parte de los destinos preferidos de los gaúchos a quienes les gusta aprovechar los lindos días de sol al aire libre.' => 'Weekends, and especially Sundays, are usually dedicated to the popular street fair Brique da Redenção, which takes place on Sundays along the full extension of Avenida José Bonifácio, next to Farroupilha Park, or Parque da Redenção, in Porto Alegre. The city comes alive in the park. Lovers of the outdoors, thousands of city residents enjoy the 40-hectare green area for outings, walking, jogging, meeting friends, sunbathing and drinking chimarrão. Areas such as Moinhos do Vento Park and Marinha do Brasil ate another two preferred spots to spend sunny days out in the open air.',
+    'Turismo rural muy cercano' => 'Rural Toursim Nearby',
+    'Porto Alegre es la segunda capital de Brasil con la más grande área rural productiva, a pocos minutos del centro de la ciudad. En esa región, está la ruta Caminos Rurales, un producto turístico diferenciado. La miel, la floricultura, la pesca, la agroecología y su diversidad, así como la crianza de ovejas y caballos, despiertan interés en este destino que cuenta hoy con diversos emprendimientos y equipos turísticos, con potenciales diversos y atracciones como espacios para ecoturismo, turismo cultural, turismo rural, además de estudios e intercambio, con temas diversos.' => 'Porto Alegre is the second largest Brazilian capital in terms of rural production areas, situated just a few minutes outside of the city. This region is home to the Caminhos Rurais, or Rural Route, a unique tourism option. Honey, floriculture, fishing, agroecology and its diversity, along with the raising of sheep and horse, spark interest in this region that is home to a range of tourism enterprise and equipment, with diverse and attractive features such as ecotourism, cultural tourism, rural tourism, as well as study and exchange opportunities, covering a range of themes.',
+    'El Guaíba y su encantador atardecer (encantadora puesta de sol)' => 'Guaíba and the Enchanting Sunset',
+    'El Lago Guaíba es la más fuerte expresión geográfica de Porto Alegre. La mejor forma de de ver el paisaje que el lago nos ofrece de la ciudad y de las islas del Delta del Jacuí es navegando por sus aguas a bordo de los barcos que hacen paseos turísticos saliendo desde el Cais de la Usina do Gasômetro, Cais Mauá y playa de Ipanema. El lago forma 72 kilómetros de la orla fluvial, buena parte urbanizada y aprovechada para actividades de esparcimiento y recreación por una población que valora la vida al aire libre. Los colores de la puesta del sol en las aguas del Guaíba son un espectáculo imperdible y la mejor postal de la ciudad.' => 'Guaíba Lake is the strongest geographical expression of Porto Alegre. The best way to enjoy the sights of the city and islands of the Jacuí Delta is by navigating its waters on board boats that offer touristic outings leaving from the Usina do Gasômetro wharf, Cais Mauá and Ipanema beach. The lakes forms a waterfront of 72 km, a large part of which is urbanized and used for leisure and recreational activities by the outdoor-loving population. The colors of the sunset over the waters of the Guaíba are a spectacle not to miss and certainly the city’s most recognized postcard shot.',
+    'City tour línea turismo' => 'City Tour Tourism Line',
+    'Para tener un primer contacto con la ciudad, con su imperdible Centro Histórico y los agradables paisajes de la Zona Sur, nada mejor que embarcar en uno de los autobuses de dos pisos del city tour Línea Turismo. A cuatro metros de altura, el pasajero tiene uma visión panorámica de calles, monumentos, del Lago Guaíba y de tantos otros atractivos. En el itinerario Centro Histórico, el enfoque son los atractivos históricos, arquitectónicos y culturales de la región donde la ciudad nació. El itinerario tiene cinco puntos de embarque y desembarque para que el visitante conozca y experimente los lugares y servicios de los barrios recorridos.' => 'For closer contact with the city, passing through the mandatory Centro Histórico and the stunning landscape of Zona Sul, there is nothing better than boarding one of the Tourism Line double-decker city tour buses. Four meters high, passengers are offered a panoramic view of the streets, squares, monuments, Lake Guaíba and many other attractions. The Centro Histórico route focus on historical, architectural and cultural attractions in the region where the city first took root. The route includes five points for boarding and getting off, allowing visitors to become familiar and try a number of venues and services in the neighborhoods along the way.',
+    'Arte y cultura' => 'Art and Culture',
+    'En el teatro, en la música o en las artes plásticas y visuales, son muchas y calificadas las producciones locales, nacionales e internacionales en esta tierra de importantes escritores, artistas y celebridades. Los conceptos audaces del premiado arquitecto portugués, Álvaro Siza Vieira, están en el edificio del museo de la Fundación Iberê Camargo (FIC), que ofrece un viaje visual increíble e integrado a las aguas del lago Guaíba. Además de la muestra permanente del pintor y grabador gaúcho Iberê Camargo (1914 - 1994), el complejo recibe exposiciones de importantes artistas brasileños y extranjeros.' => 'Whether theater, music or the fine and visual arts, there are many excellent local, national and international productions in this land of renowned authors, artists and celebrities. The bold concepts of award-winning Portuguese architect, Álvaro Siza Vieira, are clearly noted in the building of the Iberê Camargo Foundation (ICF), a museum that provides an incredible and up-close view of the waters of Guaíba Lake. Beside permanent exhibitions of Rio Grande do Sul native artist and sculptor, Iberê Camargo (1914 - 1994), the complex also hosts exhibitions by other important Brazilian and foreign artists.',
+    'Ciencia, tecnología e innovación con mucha diversión' => 'Science, Technology and Innovation with Loads of Fun',
+    'Un verdadero parque temático que estimula la curiosidad científica y los sentidos de adultos y niños. Así es el museo de Ciencias y Tecnología de la Universidad Católica de Rio Grande do Sul (PUCRS), una de las más conceptuadas del país. Son tres pisos de pura interactividad en más de 800 experimentos científicos y tecnológicos, distribuidos en un área de 17,5 mil metros cuadrados. El espacio es referencia en América Latina.' => 'A veritable theme park that stimulates the scientific curiosity and senses of children and adults alike. That is probably the best way to describe the Science and Technology Museum of the Pontifical Catholic University of Rio Grande do Sul (PUCRS), one of the most renowned in the country. There are three floors of pure interactivity with more than 800 scientific and technological experiments, spread throughout an area of 17,500 m2. The museum is a reference in Latin America.',
+    'La noche en la capital' => 'Nightlife in The Capital',
+    'Eventos culturales, bares, pubs, cervecerías, cafés y casas de shows disputan la noche portoalegrense en ritmos y estilos variados. El circuito más refinado y de glamur está en la disputada Calçada da Fama, en el Barrio Moinhos de Vento, especie de Soho portoalegrense. Tiendas de moda sofisticadas, muchos bares, casas nocturnas, restaurantes y caserones del siglo passado componen el clima del barrio, lleno de árboles y agradable. En el barrio Cidade Baixa, la noche es de la bohemia y se mezcla con la significativa concentración de caseríos de arquitectura portuguesa, restaurados y transformados en bares, restaurantes y talleres de arte.  Las opciones nocturnas del Bom Fim, tradicional barrio judío, son preferidas por segmentos alternativos. Y en la Zona Sur, donde se concentran los clubes náuticos, el residencial barrio de Ipanema se destaca por la playa, bares y restaurantes de frente a las aguas del Lago Guaíba.' => 'Cultural events, bars, pubs, local breweries, cafés and nightclubs vie for nighttime patrons, offering different styles and rhythms. For a more refine and glamorous night out, head to the chic Calçada da Fama, or Walk of Fame, in the neighborhood of Moinhos de Vento. It is Porto Alegre’s answer to Soho. Sophisticated fashion stores, many bars, nightclubs, restaurants and centenary mansions set the tone for the pleasant, tree-lined streets. In the neighborhood of Cidade Baixa, the night out is a little more bohemian, with a concentration of manor houses featuring Portuguese architecture that have been restored and transformed into bars, restaurants and art studios. The evening options in Bom Fim, a traditionally Jewish neighborhood, are preferred by an alternative crowd. Zonal Sul is home to sailing clubs, the residential neighborhood of Ipanema, with its popular waterfront lined with bars and restaurants, offering a view of the Guaíba.',
+
+    //Cultura
+    'Cultural' => 'Culture',
+    'BIBLIOTECA PÚBLICA MUNICIPAL JOSUÉ GUIMARÃES' => 'JOSUÉ GUIMARÃES MUNICIPAL PUBLIC LIBRARY',
+    'Horario de atención' => 'Opening hours',
+    'De lunes a viernes, de 09:00 a 19:00. Sábados, de 14:00 a 18:00.' => 'Monday to Friday, from 9 am to 7 pm. Saturday, from 2 pm to 6 pm',
+
+    'BRIQUE DA REDENÇÃO' => 'BRIQUE DA REDENÇÃO STREET FAIR',
+    'Página web' => 'Website',
+    'Feria al aire libre con artesanía, productos locales, artes plásticas, alimentación y anticuario.' => 'An outdoor fair with handcrafts, local products, fine art, foods and antiques.',
+    'Todos los domingos, de 09:00 a 18:00.' => 'Every Sunday, from 9 am to 6 pm',
+
+    'CASA DE CULTURA MÁRIO QUINTANA' => 'MÁRIO QUINTANA CULTURAL CENTER ',
+    'Lunes, de 14:00 a 21:00, De martes a viernes, de 09:00 a 21:00, Sábados y domingos, de 12:00 a 21:00' => 'Mondays, from 2 pm to 9 pm. Tuesdays to Fridays, from 9 am to 9 pm. Saturdays and Sundays, from 12 pm to 9 pm.',
+    'La Casa de Cultura Mário Quintana es una de las principales referencias culturales de Porto Alegre, fuerte por su linda arquitectura. En el lugar funcionaba el antiguo Hotel Majestic, donde el poeta que le dio nombre al espacio, vivió durante años.' => 'Casa da Cultura Mário Quintana, the Mário Quintana cultural center, is a leading cultural benchmark in Porto Alegre, renowned for its striking architecture. The building was once the old Hotel Majestic, where the poet after which it is named lived for a number of years.',
+
+    'CENTRO MUNICIPAL DE CULTURA, ARTE Y ENTRETENIMIENTO LUPICÍNIO RODRIGUES' => 'LUPICÍNIO RODRIGUES MUNICIPAL CULTURE, ART AND LEISURE CENTER',
+    'De lunes a viernes, de 08:30 a 10:00. Sábados, de 14:00 a 22:00. Horarios varían conforme programación.' => 'Monday to Friday, from 8:30 am to 10 pm. Saturday, from 2 pm to 10 pm. Times vary according to the program.',
+    'Integran el espacio del Centro Municipal de Cultura. Zaguán de Exposiciones, Espacio Alternativo de Exposiciones del Taller Libre, Biblioteca Pública Municipal Josué Guimarães, Teatro Renascença, Bar do Lupi y otros espacios culturales.' => 'The Municipal Cultural Center encompasses: the Exhibition Hall, Free Atelier Alternative   Exhibition Area, Josué Guimarães Municipal Public Library, Renascença Theater, Bar do Lupi and other cultural spaces.',
+
+    'FUNDACIÓN IBERÊ CAMARGO' => 'IBERÊ CAMARGO FOUNDATION',
+    'De martes a domingo, de 12:00 a 19:00. Jueves, hasta las 21:00. ' => 'Tuesday to Sunday, from 12 pm to 7 pm. Thursdays, to 9 pm.',
+    'Inaugurada en mayo de 2008, la sede de la Fundación fue proyectada por el portugués Álvaro Siza, uno de los arquitectos contemporáneos más importantes del mundo, para abrigar el acervo y todas las demás actividades. El edificio tiene salas exposiciones, atrio, reserva técnica, centro de documentación e investigación, taller de grabado, atelier del programa educativo, auditorio, tienda, cafetería y estacionamiento propio.' => 'Inaugurated in May 2008, the headquarters of the foundation was designed by Portuguese Álvaro Siza, one of the world’s leading contemporary architects, to house a the collection and other activities. The building has exhibition areas, an atrium, technical reserve, document and research center, engraving studio, educative program studio, auditorium, store, café and parking area.',
+
+    'FUNDACIÓN VERA CHAVES BARCELOS' => 'VERA CHAVES BARCELOS FOUNDATION',
+    'Sala dos Pomares y Reserva Técnica' => 'Pomares e Reserva Técnica Hall',
+
+    'FUNDACIÓN THEATRO SÃO PEDRO' => 'SÃO PEDRO THEATER FOUNDATION',
+    'De martes a domingo, de 12:00 a 19:00. Jueves, hasta las 21:00.' => 'De martes a domingo, de 12:00 a 19:00. Jueves, hasta las 21:00.',
+    'Una de las más bellas casas de espectáculos del mundo, que recibe a miles de visitantes, además del público que habitualmente prestigia los eventos de teatro, baile, música, exposiciones y otras manifestaciones culturales.' => 'One of the most beautiful performance venues in the world, receiving thousands of visitors,  along with the habitual public that enjoys the theater, dance, music events, as well as exhibitions and other cultural manifestations.',
+
+    'MEMORIAL DE RIO GRANDE DO SUL' => 'RIO GRANDE DO SUL MEMORIAL',
+    'De martes a sábados, de 10:00 a 18:00, Domingos y feriados, de 13:00 a 17:00.' => 'Tuesday to Saturday, from 10 am to 6 pm. Sundays and holidays, from 1 pm to 5 pm.',
+
+    'MERCADO PÚBLICO CENTRAL DE PORTO ALEGRE' => 'PORTO ALEGRE CENTRAL PUBLIC MARKET',
+    'Horario de funcionamiento del Mercado: De lunes a viernes, de 7:30 a 19:30. Sábados, de 07:30 a 18:30.' => 'Market oppening hours: Monday to Friday, from 7:30 am to 7:30 pm. Saturdays, from 7:30 am to 6:30 pm.',
+    'Horario de funcionamiento dos restaurantes: De lunes a viernes, hasta las 24:00, Sábados, hasta las 18:30.' => 'Restaurant oppening hours: Monday to Friday, up to midnight. Saturdays, up to 6:30 pm.',
+    'Entrada gratis; Total accesibilidad.' => 'Free entrance. Full accessibility.',
+    'Una de las principales postales de Porto Alegre, el Mercado Público conmemora 140 años de existencia. Con sus paredes y bares centenarios, el viejo Mercado es un paseo en la memoria de la historia de la ciudad.' => 'One of Porto Alegre’s main postcard shots, the Public Market is 140 years old. With centenary walls and bars, the old Market is a tour through the history of the city.',
+
+    'MUSEO DE ARTE CONTEMPORÁNEO DE RS (MACRS)' => 'RIO GRANDE DO SUL CONTEMPORARY ART MUSEUM – MACRS',
+    'Lunes, de 14:00 a 19:00. De martes a viernes, de 10:00 a 19:00. Sábados, domingos y feriados, de 12:00 a 19:00.' => 'Mondays, from 2 pm to 7 pm. Tuesday to Friday, from 10 am to 7 pm. Saturdays, Sundays and holidays, from 12 pm to 7 pm.',
+
+    'MUSEO DE ARTE DO RIO GRANDE DO SUL - MARGS' => 'RIO GRANDE DO SUL ART MUSEUM (MARGS)',
+    'De martes a domingos, de 10:00 a 19:00, excepto en el caso de eventos especiales.' => 'Tuesdays to Sundays, 10 am to 7 pm, except for special events.',
+
+    'MUSEO DE CIENCIA Y TECNOLOGÍA DE LA PUCRS' => 'PUCRS SCIENCE AND TECHNOLOGY MUSEUM',
+    'Martes, miércoles y jueves, de 09:00 a 17:00. Viernes, de 09:00 a 21:00. Sábados, domingos y feriados, de 10:00 a 18:00.' => 'Tuesdays, Wednesdays and Thursdays, from 9 am to 5 pm. Fridays, from 9 am to 9 pm. Saturdays, Sundays and holidays, from 12 pm to 7 pm.',
+    'El museo tiene colecciones científicas en las áreas de zoología, botánica, paleontología y arqueología. Juntas, ellas componen un vasto testimonio de la biodiversidad y de la ocupación humana de la región sur de Brasil. También abriga espécimenes provenientes de otras regiones del país y del exterior.' => 'The museum hoses scientific collections in the fields of zoology, botany, paleontology and archeology. Together, they compose a vast testament to the biodiversity and human occupation of the southern region of Brazil. It also features specimen from other regions of the country and abroad.',
+
+    'MUSEO DE COMUNICACIÓN HIPÓLITO JOSÉ DA COSTA' => 'HIPÓLITO JOSÉ DA COSTA SOCIAL COMMUNICATION MUSEUM',
+    'De martes a sábados, de 09:00 a 18:00.' => 'Tuesday to Saturday, from 9 am to 6 pm',
+
+    'MUSEO JOAQUIM JOSÉ FELIZARDO' => 'JOAQUIM JOSÉ FELIZARDO MUSEUM',
+    'Lunes, de 13:30 a 17:30. De martes a sábados, de 09:00 a 17:30. Entrada gratis.' => 'Mondays, from 1:30 pm to 5:30 pm. Tuesday to Saturday, from 9 am to 6 pm. Free Entrance.',
+
+    'MUSEO JÚLIO DE CASTILHOS' => 'JÚLIO DE CASTILHOS MUSEUM',
+    'De martes a sábados, de 10:00 a 17:00' => 'Tuesday to Saturday, from 10 am to 7 pm',
+
+    'ORQUESTRA SINFÔNICA DE PORTO ALEGRE (OSPA)' => '',
+    'La Fundación Orquesta Sinfónica de Porto Alegre es un complejo musical-educativo que, desde 1950, realiza un trabajo de difusión de la música orquestal y formación de plateas en Rio Grande do Sul.' => 'The Fundação Orquestra Sinfônica de Porto Alegre (Porto Alegre Symphonic Orchestra Foundation) is a musical and education complex that has been promoting orchestral music and the formation of audiences in Rio Grande do Sul since 1950.',
+
+    'PAÇO DOS AÇORIANOS' => 'PAÇO DOS AÇORIANOS CITY HALL',
+
+    'PINACOTECA RUBEN BERTA' => '',
+
+    'SANTANDER CULTURAL' => 'SANTANDER CULTURAL CENTER',
+    'De martes a sábado, de 10:00 a 19:00, Domingos y feriados, de 13:00 a 19:00' => 'Tuesday to Saturday, from 10 am to 7 pm. Sundays and holidays, from 1 pm to 7 pm.',
+
+    'USINA DO GASÔMETRO' => 'USINA DO GASÔMETRO CULTURAL CENTER',
+
+    'VIVA EL CENTRO A PIE' => 'EXPERIENCE THE CITY CENTER ON FOOT',
+    'Sábados, de 10:00 a 12:00.' => 'Saturday, from 10 am to 12 pm',
+    'Lugar: Salidas del Caminho dos Antiquários (Rua Demétrio Ribeiro, enfrente a la Praça Daltro Filho, en el encuentro de las Ruas Coronel Genuíno y Marechal Floriano).' => 'Venue: Leaving from the Antiques Route (Rua Demétrio Ribeiro, in front of Praça Daltro Filho, where Rua Coronel Genuíno and Rua Marechal Floriano meet).',
+    'Inscripciones: Las inscripciones se realizan por caminada por medio del correo Electrónico vivaocentroape@gmail.com y cada participante deberá donar 1kg de alimento no perecible' => 'Registrations: Registrations for the walks can be arranged via e-mail vivaocentroape@gmail.com and each participant must donate 1kg of nonperishable food.',
+    'Si llueve se cancelará el paseo.' => 'Outing cancelled in the event of rain.',
+
+    //Hoteles
+    'Hoteles' => 'Hotels',
+
+
+
 ];

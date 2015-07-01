@@ -19,7 +19,7 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'vendor/bower/normalize.css/normalize.css',
-        'css/site.css',
+        'css/site2.css',
     ];
     public $js = [
         'js/jquery-2.1.4.min.js',

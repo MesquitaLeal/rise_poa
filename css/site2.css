@@ -1,0 +1,830 @@
+/* ===================================
+
+    Cores:
+    #3D687F - Azul Claro
+
+   =================================== */
+
+@grid-float-breakpoint {
+    width: 1300px;
+}
+
+@font-face {
+    font-family: "AncillaryRegular";
+    src: url(../fonts/Ancillary-Regular.otf);
+}
+
+@font-face {
+    font-family: "AncillaryBold";
+    src: url(../fonts/Ancillary-Bold.otf);
+}
+
+@font-face {
+    font-family: "TypoGroteskThin";
+    src: url(../fonts/Typo-Grotesk-Thin.otf);
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+h2,
+h3 {
+    font-family: "AncillaryRegular", Arial, sans-serif;
+    color: #3D687F;
+    text-transform: uppercase;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    height: 0;
+}
+
+h2:not(.modal-title):first-of-type:before {
+    content: "+";
+    font-family: "TypoGroteskThin", Arial, sans-serif;
+    color: rgb(61, 104, 127);
+    position: absolute;
+    top: -25px;
+    left:-20px;
+}
+
+footer p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: rgb(145, 22, 60);
+}
+
+footer a:hover {
+    color: rgba(145, 22, 60, 0.7);
+}
+
+#home {
+    position: relative;
+}
+
+#home img:first-of-type {
+    max-width: 100%;
+}
+
+#home-content {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+
+}
+
+#home-content img:first-child {
+    max-width: 31.5%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 60px 25px;
+    background-color: rgba(221, 224, 186, 0.7);
+}
+
+#home-content .img-logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 50%;
+}
+
+#about {
+    background-color: rgb(221, 224, 186);
+}
+
+#about h2 {
+    padding-left: 30px;
+    font-size: 3rem;
+    border-bottom: 55px solid #c5c6a5;
+    width: 250px;
+}
+
+#about h2:lang(en-US) {
+    border-bottom: 55px solid #c5c6a5;
+    width: 280px;
+}
+
+#about img {
+    max-width: 100%;
+}
+
+#about p {
+    padding-top: 15px;
+    color: #3D687F;
+}
+
+#theme {
+    background-color: #c1bca4;
+}
+
+#theme h2 {
+    border-bottom: 45px solid #d8d5b6;
+    width: 430px;
+    font-size: 2.3rem;
+    padding-left: 15px;
+}
+
+#theme h2:lang(en-US) {
+    width: 380px;
+}
+
+#theme h2:lang(pt-BR) {
+    width: 460px;
+}
+
+#theme h2:last-of-type {
+    width: 300px;
+    margin-top: -2px;
+}
+
+#theme h2:last-of-type:lang(en-US) {
+    width: 330px;
+}
+
+#theme h3 {
+    border-bottom: 55px solid #d8d5b6;
+    width: 430px;
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+    margin-bottom: 110px;
+    padding-left: 15px;
+}
+
+#theme p {
+    color: #91163C;
+}
+
+#theme .col-md-6 p:nth-child(1) {
+    padding-top: 128px;
+}
+
+#panels {
+    background-color: rgb(91, 138, 182);
+}
+
+#panels h2 {
+    border-bottom: 45px solid #c1bca4;
+    width: 430px;
+    font-size: 2.3rem;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+#panels h2:lang(en-US) {
+    width: 470px;
+}
+
+#panels h2:before {
+    color: #FFFFFF;
+}
+
+.panels-list li,
+#papers ol > li  {
+    list-style: none;
+    counter-increment: panel-counter;
+    margin-left: -10px;
+    padding: 10px 0;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.panels-list li:before,
+#papers ol > li:before {
+    content: counter(panel-counter);
+    position: absolute;
+    left: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(61, 104, 127);
+}
+
+.panels-list li:last-child:before {
+    margin-left: -8px;
+}
+
+#members h2 {
+    border-bottom: 30px solid #c1bca4;
+    font-size: 1.5rem;
+    width: 240px;
+}
+
+#members h2:before {
+    top: -10px;
+    left: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    content: '+ Comité';
+}
+
+#left-side {
+    border-bottom: 30px solid #c1bca4;
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent;
+    width: 240px;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 1.5rem;
+}
+
+#left-side:before {
+    top: -10px;
+    right: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    content: '+ Comité';
+}
+
+#members li {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+#papers h2 {
+    border-bottom: 45px solid #c1bca4;
+    width: 600px;
+    font-size: 2.3rem;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+#papers h2:lang(pt-BR) {
+    width: 250px;
+}
+
+#papers h2:lang(en-US) {
+    width: 300px;
+}
+
+#papers {
+    background-color: rgb(216, 213, 182);
+}
+
+#papers h2,
+#papers h2:before,
+#papers li,
+#papers p {
+    color: rgb(145, 22, 60);
+}
+
+#papers ol > li,
+#papers ol > li:before,
+#papers ul > li {
+    text-transform: none;
+    color: rgb(145, 22, 60);
+}
+
+#papers ul > li {
+    list-style: none;
+}
+
+#deadline {
+    background-color: #c1bca4;
+}
+
+#deadline h2{
+    border-bottom: 45px solid #DDE0BA;
+    width: 220px;
+    font-size: 2.3rem;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+#deadline h2:lang(en-US) {
+    width: 280px;
+}
+
+#deadline h2:before {
+    color: #FFFFFF;
+}
+
+#deadline h6 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#deadline p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#deadline .col-sm-3:last-child p {
+    margin-top: 0;
+}
+
+#deadline .col-sm-3:first-child {
+    margin-left: 15px;
+}
+
+#deadline .col-sm-3 {
+    border-top: 4px solid rgb(145, 22, 60);
+    background-color: rgb(221, 224, 186);
+    height: 200px;
+    width: 210px;
+    margin-right: 10px;
+    margin-top: -150px;
+}
+
+#infos {
+    background-color: #91163C;
+}
+
+#infos h2:not(.modal-title) {
+    border-bottom: 45px solid #BE8D86;
+    width: 150px;
+    font-size: 2.3rem;
+    padding-left: 15px;
+    margin-bottom: -100px;
+    color: #720632;
+}
+
+#infos h2:not(.modal-title):before {
+    color: #BE8D86;
+}
+
+#infos img {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    border: 1px solid #FFFFFF;
+    box-sizing: initial;
+    padding: 40px;
+    cursor: pointer;
+}
+
+#infos .top {
+    margin-top: -70px;
+}
+
+#infos .col-sm-3 {
+    height: 200px;
+}
+
+.link-title {
+    margin-top: 140px;
+    padding-bottom: 150px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.modal-title {
+    border-bottom: 45px solid #d8d5b6;
+    width: 250px;
+    font-size: 2.3rem;
+    padding-left: 15px;
+    color: #720632;
+}
+
+#poaModal .modal-title {
+    width: 370px;
+}
+
+.modal-title:before {
+    content: "+";
+    font-family: "TypoGroteskThin", Arial, sans-serif;
+    color: rgb(145, 22, 60);
+    position: absolute;
+    top: -43px;
+    left: -10px;
+}
+
+.modal-source {
+    font-style: italic;
+    color: #d8d5b6;
+    margin-top: 10px;
+}
+
+.modal-source a {
+    color: #d8d5b6;
+}
+
+.modal-source a:hover {
+    color: #cfcba5;
+}
+
+.modal-text h6{
+    font-family: "AncillaryBold";
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+#contact {
+    background-color: rgb(114, 6, 50);
+}
+
+#contact h2 {
+    border-bottom: 45px solid #DDE0BA;
+    width: 270px;
+    font-size: 2.3rem;
+    padding-left: 15px;
+    margin-bottom: 50px;
+    color: rgb(114, 6, 50);
+}
+
+#contact h2:lang(en-US) {
+    width: 250px;
+}
+
+#contact h2:before {
+    color: rgb(221, 224, 186);
+}
+
+#contact a {
+    color: #FFFFFF;
+    position: relative;
+    top: -90px;
+    left: 300px;
+}
+
+#contact .content {
+    padding: 100px 0 50px 0;
+}
+
+.content {
+    max-width: 980px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.footer {
+    height: 60px;
+    background-color: #1e1e1e;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+.voltar {
+    float: right;
+}
+
+.abstracts-view h1 {
+    text-align: center;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* ================================================= */
+/* ============= Bootstrap overwriting ============= */
+/* ================================================= */
+
+.navbar-inverse,
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:hover {
+    background-color: #720632;
+    border-color: #720632;
+}
+
+.navbar-inverse .navbar-nav .active a:hover,
+.navbar-inverse .navbar-nav li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.navbar-brand {
+    font-family: "AncillaryRegular", Arial, sans-serif;
+}
+
+.navbar-brand:before {
+    content: "+";
+    font-family: "TypoGroteskThin", Arial, sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: -10px;
+    left:0;
+}
+
+.navbar-brand:before:hover {
+    color: #FFFFFF;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+}
+
+.modal-content {
+    background-color: #c1bca4;
+    border-radius: 0;
+    border: none;
+}
+
+.modal-body {
+    color: rgb(145, 22, 60);
+    font-size: 1rem;
+    padding: 70px;
+}
+
+.close {
+    font-size: 30px;
+}
+
+
+
+
+/* ================================================= */
+/* ============= Entre 780px e 980px ============= */
+/* ================================================= */
+
+@media screen and (min-width: 1367px) {
+
+    .content {
+        max-width: 1200px;
+    }
+
+    .modal-lg {
+        width: 1000px;
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .content {
+        max-width: 900px;
+    }
+
+    .modal-lg {
+        width: 1000px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .content {
+        max-width: 900px;
+    }
+
+    .modal-lg {
+        width: 1000px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #home-content {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    #home-content img:first-child {
+        max-width: 40%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 50px 25px;
+        background-color: rgba(221, 224, 186, 0.7);
+    }
+
+    #theme h3 {
+        margin-bottom: 30px;
+    }
+
+    #theme .col-md-6 p:nth-child(1) {
+        padding-top: 0;
+    }
+
+    #deadline .col-sm-3,
+    #deadline .col-sm-3:first-child {
+        border-top: 4px solid rgb(145, 22, 60);
+        background-color: rgb(221, 224, 186);
+        height: 200px;
+        width: 150px;
+        margin-top: -150px;
+        margin-right: 10px;
+    }
+
+    #deadline .col-sm-3:first-child {
+        margin-left: 15px;
+    }
+
+    .content {
+        max-width: 680px;
+    }
+
+    .modal-lg {
+        width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    #home-content {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        transform: none;
+        background: url(../images/home.png);
+        background-size: cover;
+        width: 100%;
+    }
+
+    .img-teste {
+        display: none;
+    }
+
+    #home-content img:first-child {
+        position: static;
+        max-width: 100%;
+        background-color: rgba(221, 224, 186, 0.7);
+    }
+
+    #home-content img:last-child {
+        display: none;
+    }
+
+    h2:first-of-type:before {
+        top: -33px;
+        left: 0px;
+    }
+
+    #about img {
+        display: none;
+    }
+
+    #about p,
+    #theme p {
+        margin-left: 5px;
+    }
+
+    #theme h3 {
+        margin-bottom: 30px;
+    }
+
+    #theme .col-md-6 p:nth-child(1) {
+        padding-top: 0;
+    }
+
+    #panels h2 {
+        max-width: 290px;
+        line-height: 2rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #panels h2:after {
+        border-top: 100px solid rgb(91, 138, 182);
+        border-left: 45px solid transparent;
+        top: 65px;
+        left:8px;
+    }
+
+    #papers h2 {
+        max-width: 400px;
+        line-height: 2rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #papers h2:after {
+        border-top: 100px solid rgb(216, 213, 182);
+        border-left: 45px solid transparent;
+        top: 65px;
+        left:4px;
+    }
+
+    #papers ul > li {
+        list-style: square;
+    }
+
+    #deadline .col-sm-3,
+    #deadline .col-sm-3:first-child {
+        border-top: 4px solid rgb(145, 22, 60);
+        background-color: rgb(221, 224, 186);
+        height: 200px;
+        width: 210px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #deadline .col-sm-3:first-child {
+        margin-top: -200px;
+    }
+
+    #contact a {
+        position: static;
+    }
+
+    #contact .content {
+        padding: 50px 0;
+    }
+
+    .link-title {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    #theme h2 {
+        max-width: 250px;
+        line-height: 2rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #theme h2:last-of-type {
+        max-width: 280px;
+        margin-top: -69px;
+    }
+
+    #theme h2:after {
+        border-top: 200px solid #c1bca4;
+        border-left: 100px solid transparent;
+        top: 65px;
+        left:165px;
+    }
+
+    #theme h2:last-of-type:after {
+        border: none;
+    }
+
+    #theme h3 {
+        max-width: 290px;
+    }
+
+    #theme h3:after {
+        border-top: 140px solid #c1bca4;
+        border-left: 70px solid transparent;
+        top: 68px;
+        left:8px;
+    }
+
+    #papers h2 {
+        font-size: 1.7rem;
+        line-height: 1.5rem;
+        max-width: 314px;
+    }
+}

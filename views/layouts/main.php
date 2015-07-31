@@ -47,6 +47,7 @@ AppAsset::register($this);
 					['label' => Yii::t('app', 'Sobre'), 'url' => ['/site/index', '#'=>'about']],
 					['label' => Yii::t('app', 'Tema'), 'url' => ['/site/index', '#'=>'theme']],
 					['label' => Yii::t('app', 'Mesas'), 'url' => ['/site/index', '#'=>'panels']],
+					['label' => Yii::t('app', 'Comités'), 'url' => ['/site/index', '#'=>'boards']],
 					['label' => Yii::t('app', 'Envío'), 'url' => ['/site/index', '#'=>'papers']],
 					['label' => Yii::t('app', 'Fechas'), 'url' => ['/site/index', '#'=>'deadline']],
 					['label' => Yii::t('app', 'Info'), 'url' => ['/site/index', '#'=>'infos']],

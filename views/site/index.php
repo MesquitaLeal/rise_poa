@@ -54,7 +54,7 @@ $this->title = 'RISE';
 
     <div id="panels">
         <div class="row content">
-        	<div class="col-lg-6">
+        	<div class="col-lg-12">
 	        	<div id='panels-title'>
 	        		<h2><?= Yii::t('app', 'Mesas Temáticas');?></h2>
 	        	</div>
@@ -71,67 +71,57 @@ $this->title = 'RISE';
     				<li> <?= Yii::t('app', 'Ibero-América y Países Emergentes');?> </li>
         		</ol>
 			</div>
-        	<!--<div class="col-lg-6" id="members">
-				<div class="row">
-					<div class="col-lg-6">
-						<ul>
-							<li>Dr. Pedro Cezar Dutra Fonseca (UFRGS)</li>
-							<li>Dr. Fernando Ferrari Filho (UFRGS)</li>
-							<li>Dr. Santos M. Ruesga (UAM)</li>
-							<li>Dr. Rolando Cordera (UNAM - Mexico)</li>
-							<li>Dr. Gerardo Fujii (UNAM - Mexico)</li>
-							<li>Dr. Glenn Morgan (SASE President, Cardiff Business School)</li>
-							<li>Dr. Gregory Jackson (Freie Universität Berlin)</li>
-							<li>Dr. Ricardo Bielschowsky (UFRJ-Cepal)</li>
-							<li>Dr. Claudio Dedecca (Unicamp)</li>
-							<li>Dra. Maria Cristina Cacciamali (USP)</li>
-							<li>Dra. Maria de Lourdes Mollo (UnB)</li>
-						</ul>
-					</div>
-					<div class="col-lg-6">
-						<h2 id="left-side">Científico</h2>
-						<ul>
-							<li>Dra. Magna Inácio (UFMG)</li>
-							<li>Dra. Leda Paulani (USP)</li>
-							<li>Dra. Nadya Araujo Guimarães (USP)</li>
-							<li>Dra. Marianne L. Wiesebron (University of Leiden - Holland)</li>
-							<li>Dr. Andrew Schrank (Brown University - USA)</li>
-							<li>Dr. Michael Piore (MIT - USA)</li>
-							<li>Dr. Diego Sánchez-Ancochea (University of Oxford - UK)</li>
-							<li>Dr. Marcio Pochmann (Unicamp)</li>
-							<li>Dr. Marco Lima da Costa (UFPE)</li>
-							<li>Dr. Ricardo Carneiro (World Bank)</li>
-							<li>Dr. Paulo Nogueira Batista (IMF)</li>
-							<li>Dr. Miguel Atienza (U. Antofagasta - Chile)</li>
-						</ul>
-					</div>
-				<div class="row">
-					<div class="col-lg-5">
-						<h2>Organizador</h2>
-					</div>
-					<div class="col-lg-7">
-						<ul>
-							<li>Dr. Pedro Cezar Dutra Fonseca (UFRGS)</li>
-							<li>Dr. Fernando Ferrari Filho (UFRGS)</li>
-							<li>Dr. André Moreira Cunha (UFRGS)</li>
-							<li>Dr. Marco Aurélio Chaves Cepik (UFRGS)</li>
-							<li>Dr. Ricardo Dathein (UFRGS)</li>
-							<li>Dra. Sonia Maria Ranincheski (UFRGS)</li>
-							<li>Dr. Leandro Valiati (UFRGS)</li>
-							<li>Dr. Julimar da Silva Bichara (UAM)</li>
-						</ul>
-					</div>
+        </div>
+    </div>
 
-
-					</div>
-				</div>
-        	</div>-->
+    <div id="boards">
+        <div class="row content">
+            <div class="col-md-8">
+                <span class="section-title scientific"><h2 class="noth2">Científico</h2></span>
+                <ul class="scientific-list">
+                    <li>Dr. Pedro Cezar Dutra Fonseca (UFRGS)</li>
+                    <li>Dr. Fernando Ferrari Filho (UFRGS)</li>
+                    <li>Dr. Santos M. Ruesga (Universidad Autónoma de Madrid)</li>
+                    <li>Dr. Rolando Cordera (UNAM - México)</li>
+                    <li>Dr. Gerardo Fujii (UNAM - México)</li>
+                    <li>Dr. Glenn Morgan (SASE President, Cardiff Business School)</li>
+                    <li>Dr. Claudio Dedecca (Unicamp)</li>
+                    <li>Dra. Maria Cristina Cacciamali (USP)</li>
+                    <li>Dra. Maria de Lourdes Mollo (UnB)</li>
+                    <li>Dra. Magna Inácio (UFMG)</li>
+                    <li>Dra. Leda Paulani (USP)</li>
+                    <li>Dra. Nadya Araujo Guimarães (USP)</li>
+                    <li>Dra. Marianne L. Wiesebron (University of Leiden)</li>
+                    <li>Dr. Andrew Schrank (Brown University)</li>
+                    <li>Dr. Michael Piore (Massachussets Institute of Technology)</li>
+                    <li>Dr. Diego Sánchez-Ancochea (University of Oxford)</li>
+                    <li>Dr. Marcio Pochmann (Unicamp)</li>
+                    <li>Dr. Marco Lima da Costa (UFPE)</li>
+                    <li>Dr. Ricardo Carneiro (Banco Mundial)</li>
+                    <li>Dr. Paulo Nogueira Batista (Fundo Monetário Internacional)</li>
+                    <li>Dr. Miguel Atienza (U. Antofagasta)</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <span class="section-title administrative"><h2 class="noth2">Organizador</h2></span>
+                <ul class="administrative-list">
+                    <li>Dr. Pedro Cezar Dutra Fonseca (UFRGS)​</li>
+                    <li>Dr. Fernando Ferrari Fillho (UFRGS) </li>
+                    <li>Dr. André Moreira Cunha (UFRGS) </li>
+                    <li>Dr. Marco Aurélio Chaves Cepik (UFRGS) </li>
+                    <li>Dr. Ricardo Dathein (UFRGS) </li>
+                    <li>Dr. Sonia Maria Ranincheski (UFRGS) </li>
+                    <li>Dr. Leandro Valiati (UFRGS) </li>
+                    <li>Dr. Santos M. Ruesga (Universidad Autónoma de Madrid)</li>
+                    <li>Dr. Julimar da Silva Bichara (Universidad Autónoma de Madrid)</li>
+                </ul>
+            </div>
         </div>
     </div>
 
     <div id="papers">
         <div class="row content">
-        	<div class="col-lg-12">
+        	<div class="col-lg-9">
 	        	<h2> <?= Yii::t('app', 'Envío de Comunicaciones');?> </h2>
         		<ol>
         			<li> <?= Yii::t('app', 'Enviar resúmenes hasta el 30 de Septiembre de 2015.');?> </li>
@@ -150,8 +140,13 @@ $this->title = 'RISE';
 					<li> <?= Yii::t('app', 'Indicar a qué mesa temática se remite la comunicación.');?> </li>
         		</ol>
         		<p> <?= Yii::t('app', '*La aceptación del resumen por el Comité Científico es el requisito imprescindible para presentar la comunicación en la RISE. No será necesario remitir la comunicación completa.');?> </p>
-        		<a href="index.php?r=abstracts/create"><button class="btn btn-primary"><h4> <?= Yii::t('app', 'Enviar Resumen');?> </h4></button></a>
 			</div>
+            <div class="col-lg-3">
+                <div class="papers-box">
+                    <p><?= Yii::t('app', 'Fecha<br/> final para<br/> envío');?><br/><span class="fecha-final">30/09/2015</span></p>
+                    <a href="index.php?r=abstracts/create"><button class="btn-envio"><h4> <?= Yii::t('app', 'Enviar Resumen');?> </h4></button></a>
+                </div>
+            </div>
         </div>
     </div>
 

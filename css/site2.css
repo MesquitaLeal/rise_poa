@@ -32,7 +32,7 @@ body {
     font-weight: 400;
 }
 
-h2,
+h2:not(.noth2),
 h3 {
     font-family: "AncillaryRegular", Arial, sans-serif;
     color: #3D687F;
@@ -42,7 +42,7 @@ h3 {
     height: 0;
 }
 
-h2:not(.modal-title):first-of-type:before {
+h2:not(.modal-title):not(.noth2):first-of-type:before {
     content: "+";
     font-family: "TypoGroteskThin", Arial, sans-serif;
     color: rgb(61, 104, 127);
@@ -214,43 +214,100 @@ footer a:hover {
     margin-left: -8px;
 }
 
+#boards {
+    background-color: #3D687F;
+}
+
+.section-title {
+    display: inline-block;
+    position: relative;
+    width: 220px;
+    height: 60px;
+    background-color: #c1bca4;
+    margin-bottom: 20px;
+}
+
+.section-title:before {
+    content: '+ Comité';
+    font-family: "TypoGroteskThin", Arial, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: -30px;
+    left: 5px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.section-title:after {
+    content: '';
+    border-left: 20px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 60px solid #3D687F;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.section-title h2 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-family: "AncillaryRegular", Arial, sans-serif;
+    color: #3D687F;
+    text-transform: uppercase;
+    margin-top: -16px;
+    margin-bottom: 0;
+}
+
+.administrative {
+    width: 270px;
+}
+
+/*
 #members h2 {
     border-bottom: 30px solid #c1bca4;
     font-size: 1.5rem;
-    width: 240px;
+    width: 200px;
+    padding-left: 20px;
+}
+
+#members h2:last-of-type {
+    width: 270px;
 }
 
 #members h2:before {
     top: -10px;
-    left: 10px;
+    left: 15px;
+    color: #FFFFFF;
     font-size: 1rem;
     font-weight: 600;
     content: '+ Comité';
 }
-
-#left-side {
-    border-bottom: 30px solid #c1bca4;
-    border-left: 30px solid transparent;
-    border-right: 0px solid transparent;
-    width: 240px;
-    text-align: right;
-    padding-right: 15px;
-    font-size: 1.5rem;
+*/
+.scientific-list,
+.administrative-list {
+    margin-left: -40px;
 }
 
-#left-side:before {
-    top: -10px;
-    right: 50px;
-    font-size: 1rem;
-    font-weight: 600;
-    content: '+ Comité';
-}
-
-#members li {
+.scientific-list li,
+.administrative-list li{
     font-size: 0.9rem;
     line-height: 1.5rem;
     color: #FFFFFF;
     list-style: none;
+}
+
+.scientific-list {
+    -moz-column-count: 2;
+    -moz-column-gap: 60px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 60px;
+    column-count: 2;
+    column-gap: 60px;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
 }
 
 #papers h2 {
@@ -289,6 +346,60 @@ footer a:hover {
 
 #papers ul > li {
     list-style: none;
+}
+
+#papers > .content {
+    position: relative;
+}
+
+#papers .col-lg-3 {
+    position: static;
+}
+
+.papers-box {
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    text-align: center;
+}
+
+.papers-box p { 
+    text-transform: uppercase;
+    font-family: "AncillaryRegular", Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    width: 200px;
+    padding: 40px 0;
+    background-color: #DDE0BA;
+
+}
+
+.fecha-final {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.btn-envio {
+    border: 1px solid;
+    width: 200px;
+    height: 70px;
+    margin-top: 20px;
+    color: #91163C;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.btn-envio:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color: #91163C;
+    border-color: #91163C;
+    color: #FFFFFF;
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    transform: translateY(-1px);
 }
 
 #deadline {
@@ -679,6 +790,22 @@ a.desc:after {
         width: 700px;
     }
 
+    .administrative {
+        margin-top: 70px;
+    }
+
+    .administrative-list {
+    -moz-column-count: 2;
+    -moz-column-gap: 60px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 60px;
+    column-count: 2;
+    column-gap: 60px;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -740,6 +867,17 @@ a.desc:after {
         border-left: 45px solid transparent;
         top: 65px;
         left:8px;
+    }
+
+    .administrative {
+        margin-top: 70px;
+    }
+
+    .scientific-list,
+    .administrative-list {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
     }
 
     #papers h2 {

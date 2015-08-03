@@ -239,6 +239,14 @@ footer a:hover {
     font-weight: 600;
 }
 
+.section-title:lang(en-US):before {
+    content: '+ Board';
+}
+
+.section-title:lang(pt-BR):before {
+    content: '+ Comitê';
+}
+
 .section-title:after {
     content: '';
     border-left: 20px solid transparent;
@@ -262,6 +270,10 @@ footer a:hover {
 
 .administrative {
     width: 270px;
+}
+
+.administrative:lang(en-US) {
+    width: 310px;
 }
 
 /*
@@ -352,7 +364,7 @@ footer a:hover {
     position: relative;
 }
 
-#papers .col-lg-3 {
+#papers .col-md-3 {
     position: static;
 }
 
@@ -363,7 +375,7 @@ footer a:hover {
     text-align: center;
 }
 
-.papers-box p { 
+.papers-box p {
     text-transform: uppercase;
     font-family: "AncillaryRegular", Arial, sans-serif;
     font-size: 1.6rem;
@@ -434,21 +446,38 @@ footer a:hover {
     margin-top: 40px;
 }
 
-#deadline .col-sm-3:last-child p {
-    margin-top: 0;
-}
-
-#deadline .col-sm-3:first-child {
-    margin-left: 15px;
-}
-
-#deadline .col-sm-3 {
+#deadline .box {
     border-top: 4px solid rgb(145, 22, 60);
     background-color: rgb(221, 224, 186);
     height: 200px;
     width: 210px;
     margin-right: 10px;
     margin-top: -150px;
+}
+
+#deadline .box:nth-child(1) {
+    border-color: #68869B;
+    color: #68869B;
+    margin-left: 15px;
+}
+
+#deadline .box:nth-child(2) {
+    border-color: #3D687F;
+    color: #3D687F;
+}
+
+#deadline .box:nth-child(3) {
+    border-color: #720632;
+    color: #720632;
+}
+
+#deadline .box:nth-child(4) {
+    border-color: #91163C;
+    color: #91163C;
+}
+
+#deadline .box:last-child p {
+    margin-top: 0;
 }
 
 #infos {
@@ -478,6 +507,14 @@ footer a:hover {
     box-sizing: initial;
     padding: 40px;
     cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+#infos img:hover {
+    background-color: #720632;
+    border-color: #720632;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 #infos .top {
@@ -768,9 +805,7 @@ a.desc:after {
         padding-top: 0;
     }
 
-    #deadline .col-sm-3,
-    #deadline .col-sm-3:first-child {
-        border-top: 4px solid rgb(145, 22, 60);
+    #deadline .box {
         background-color: rgb(221, 224, 186);
         height: 200px;
         width: 150px;
@@ -778,7 +813,7 @@ a.desc:after {
         margin-right: 10px;
     }
 
-    #deadline .col-sm-3:first-child {
+    #deadline .box:first-child {
         margin-left: 15px;
     }
 
@@ -804,6 +839,10 @@ a.desc:after {
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid;
+    }
+
+    .papers-box {
+        display: none;
     }
 
 }
@@ -880,6 +919,10 @@ a.desc:after {
         column-count: 1;
     }
 
+    .papers-box {
+        display: none;
+    }
+
     #papers h2 {
         max-width: 400px;
         line-height: 2rem;
@@ -898,9 +941,7 @@ a.desc:after {
         list-style: square;
     }
 
-    #deadline .col-sm-3,
-    #deadline .col-sm-3:first-child {
-        border-top: 4px solid rgb(145, 22, 60);
+    #deadline .box {
         background-color: rgb(221, 224, 186);
         height: 200px;
         width: 210px;
@@ -908,7 +949,7 @@ a.desc:after {
         margin-bottom: 20px;
     }
 
-    #deadline .col-sm-3:first-child {
+    #deadline .box:first-child {
         margin-top: -200px;
     }
 

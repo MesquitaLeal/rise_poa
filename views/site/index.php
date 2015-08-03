@@ -77,7 +77,7 @@ $this->title = 'RISE';
     <div id="boards">
         <div class="row content">
             <div class="col-md-8">
-                <span class="section-title scientific"><h2 class="noth2">Científico</h2></span>
+                <span class="section-title scientific"><h2 class="noth2"><?= Yii::t('app', 'Científico');?></h2></span>
                 <ul class="scientific-list">
                     <li>Dr. Pedro Cezar Dutra Fonseca (UFRGS)</li>
                     <li>Dr. Fernando Ferrari Filho (UFRGS)</li>
@@ -103,7 +103,7 @@ $this->title = 'RISE';
                 </ul>
             </div>
             <div class="col-md-4">
-                <span class="section-title administrative"><h2 class="noth2">Organizador</h2></span>
+                <span class="section-title administrative"><h2 class="noth2"><?= Yii::t('app', 'Organizador');?></h2></span>
                 <ul class="administrative-list">
                     <li>Dr. Pedro Cezar Dutra Fonseca (UFRGS)​</li>
                     <li>Dr. Fernando Ferrari Fillho (UFRGS) </li>
@@ -121,7 +121,7 @@ $this->title = 'RISE';
 
     <div id="papers">
         <div class="row content">
-        	<div class="col-lg-9">
+        	<div class="col-md-9">
 	        	<h2> <?= Yii::t('app', 'Envío de Comunicaciones');?> </h2>
         		<ol>
         			<li> <?= Yii::t('app', 'Enviar resúmenes hasta el 30 de Septiembre de 2015.');?> </li>
@@ -141,9 +141,9 @@ $this->title = 'RISE';
         		</ol>
         		<p> <?= Yii::t('app', '*La aceptación del resumen por el Comité Científico es el requisito imprescindible para presentar la comunicación en la RISE. No será necesario remitir la comunicación completa.');?> </p>
 			</div>
-            <div class="col-lg-3">
+            <div class="col-md-3">
                 <div class="papers-box">
-                    <p><?= Yii::t('app', 'Fecha<br/> final para<br/> envío');?><br/><span class="fecha-final">30/09/2015</span></p>
+                    <p><?= Yii::t('app', 'Fecha<br/> final para<br/> envío');?><br/><span class="fecha-final"><?= Yii::t('app', '30/09/2015');?></span></p>
                     <a href="index.php?r=abstracts/create"><button class="btn-envio"><h4> <?= Yii::t('app', 'Enviar Resumen');?> </h4></button></a>
                 </div>
             </div>
@@ -156,20 +156,20 @@ $this->title = 'RISE';
 	        	<h2><?= Yii::t('app', 'Fechas');?></h2>
 			</div>
         </div>
-        <div class="row content box">
-        	<div class="col-sm-3">
+        <div class="row content">
+        	<div class="col-sm-3 box">
         		<h6><?= Yii::t('app', '01/04/2015');?></h6>
         		<p><?= Yii::t('app', 'Abre plazo para recibir las comunicaciones');?></p>
         	</div>
-        	<div class="col-sm-3">
+        	<div class="col-sm-3 box">
         		<h6><?= Yii::t('app', '30/09/2015');?></h6>
         		<p><?= Yii::t('app', 'Finaliza plazo para recibir las comunicaciones');?></p>
         	</div>
-        	<div class="col-sm-3">
+        	<div class="col-sm-3 box">
         		<h6><?= Yii::t('app', '15/10/2015');?></h6>
         		<p><?= Yii::t('app', 'Selección de comunicaciones');?></p>
         	</div>
-        	<div class="col-sm-3">
+        	<div class="col-sm-3 box">
         		<h6><?= Yii::t('app', '19 a 21');?><br><?= Yii::t('app', 'NOV 2015');?></h6>
         		<p><?= Yii::t('app', 'Congresso');?></p>
         	</div>

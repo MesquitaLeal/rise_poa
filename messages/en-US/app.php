@@ -85,6 +85,11 @@ return [
     'Relaciones Internacionales e Integración Regional' => 'Globalization, International Relations and Regional Integration',
     'Ibero-América y Países Emergentes' => 'Ibero-America and Emerging Countries',
 
+    //Comites
+    'Comités' => 'Boards',
+    'Científico' => 'Scientific',
+    'Organizador' => 'Administrative',
+
     //Papers
     'Envío' => 'Submissions',
     'Envío de Comunicaciones' => 'Abstracts',
@@ -102,6 +107,7 @@ return [
     'Indicar a qué mesa temática se remite la comunicación.' => 'You must select a Panel',
     '*La aceptación del resumen por el Comité Científico es el requisito imprescindible para presentar la comunicación en la RISE. No será necesario remitir la comunicación completa.' => 'The acceptance of the abstract by the Scientific Committee is the prerequisite for presenting your communication to the II RISE. It will not be necessary to submit the full paper.',
     'Enviar Resumen' => 'Send abstract',
+    'Fecha<br/> final para<br/> envío' => 'Deadline<br/>for submissions',
 
     //Deadlines
     '01/04/2015' => 'April 1st, 2015',

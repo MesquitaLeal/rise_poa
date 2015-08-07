@@ -34,7 +34,7 @@ AppAsset::register($this);
 			else
 				$xy = 'Português';
 			NavBar::begin([
-				'brandLabel' => 'rise',
+				'brandLabel' => 'sase <span class="brand">+</span> rise',
 				//'brandUrl' => Yii::$app->homeUrl,
 				'options' => [
 					'class' => 'navbar-inverse navbar-fixed-top',

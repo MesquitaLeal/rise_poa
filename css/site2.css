@@ -115,7 +115,12 @@ footer a:hover {
 }
 
 #about img {
-    max-width: 100%;
+    max-width: 250px;
+}
+
+.logo-sase {
+    display: block;
+    margin: 0 auto;
 }
 
 #about p {
@@ -706,8 +711,7 @@ a.desc:after {
     font-family: "AncillaryRegular", Arial, sans-serif;
 }
 
-.navbar-brand:before {
-    content: "+";
+.brand {
     font-family: "TypoGroteskThin", Arial, sans-serif;
     color: #FFFFFF;
     position: relative;

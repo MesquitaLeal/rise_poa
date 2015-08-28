@@ -43,6 +43,7 @@ AppAsset::register($this);
 
 			 echo Nav::widget([
 				'options' => ['class' => 'navbar-nav navbar-right'],
+				'encodeLabels'=>false,
 				'items' => [
 					['label' => Yii::t('app', 'Sobre'), 'url' => ['/site/index', '#'=>'about']],
 					['label' => Yii::t('app', 'Tema'), 'url' => ['/site/index', '#'=>'theme']],
@@ -51,7 +52,7 @@ AppAsset::register($this);
 					['label' => Yii::t('app', 'Envío'), 'url' => ['/site/index', '#'=>'papers']],
 					['label' => Yii::t('app', 'Fechas'), 'url' => ['/site/index', '#'=>'deadline']],
 					['label' => Yii::t('app', 'Info'), 'url' => ['/site/index', '#'=>'infos']],
-					['label' => Yii::t('app', 'Contacto'), 'url' => ['/site/index', '#'=>'contact']],
+					['label' => Yii::t('app', 'Inscripciones'), 'url' => ['/site/index', '#'=>'registration']],
 					['label' => $xy,
 						'items' => [
 							['label' => 'English', 'url' => ['/site/us']],
@@ -59,9 +60,10 @@ AppAsset::register($this);
 							['label' => 'Português', 'url' => ['/site/pt']],
 						],
 					],
+					['label' => '<i class="fa fa-envelope"></i>', 'url' => ['site/index']],
 					Yii::$app->user->isGuest ?
-						['label' => 'Login', 'url' => ['/site/login']] :
-						['label' => 'Logout (' . Yii::$app->user->identity->name . ')',
+						['label' => '<i class="fa fa-user"></i>', 'url' => ['/site/login']] :
+						['label' => '<i class="fa fa-user-times"></i>' /*. Yii::$app->user->identity->name .*/,
 							'url' => ['/site/logout'],
 							'linkOptions' => ['data-method' => 'post']],
 				],

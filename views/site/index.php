@@ -16,7 +16,7 @@ $this->title = 'RISE';
     <div id="about">
         <div class="row content">
         	<div class="col-md-5" id="about-title">
-           		<h2> <?= Yii::t('app', 'Sobre');?> </h2>
+                <span class="section-title"><h2><?= Yii::t('app', 'Sobre');?></h2></span>
         	</div>
         	<div class="col-md-7">
         		<p> <?= Yii::t('app', 'Fundada en 1989, la Sociedad para el Desarrollo de la Socioeconomía (Society for the Advancement of Socio-Economics – SASE) es una institución internacional con miembros en más de cincuenta países. La SASE organiza una reunión anual principal, además de reuniones regionales, eventos académicos locales, y publica una revista, la Socio-Economic Review. En paralelo a la creación de la sección Iberoamericana de la SASE, fue organizada en 2013, en la Universidad Autónoma de México, la Primera Reunión Iberoamericana de Socioeconomía, el primer encuentro regional de la SASE.');?> </p>
@@ -33,9 +33,9 @@ $this->title = 'RISE';
     <div id="theme">
         <div class="row content">
         	<div class="col-md-6">
-	        	<h2> <?= Yii::t('app', 'Estado, sociedad');?> </h2>
-	        	<h2> <?= Yii::t('app', 'y mercado');?> </h2>
-	        	<h3> <?= Yii::t('app', 'nuevas perspectivas para el desarrollo');?> </h3>
+                <span class="section-title"><h2><?= Yii::t('app', 'Estado, sociedad');?></h2></span>
+                <span class="section-title"><h2><?= Yii::t('app', 'y mercado');?></h2></span>
+                <span class="section-title"><h3><?= Yii::t('app', 'nuevas perspectivas<br/>para el desarrollo');?></h3></span>
         		<p> <?= Yii::t('app', 'Las instituciones neoliberales y la estrategia de promoción del desarrollo económico con protagonimdo del mercado, vaciamiento del papel del estado y escasa política social parecía que entraba en jaque con la crisis financiera internacional y la gran depresión. Ya a finales de los años 1990 se observaba una cierta tendencia de cambio en la estrategia de desarrollo de los países iberoamericanos, dado la incapacidad de ese modelo neoliberal para promover crecimiento económico con distribución de la renta. Esa tendencia también se ha manifestado en el mundo académico, con una constante búsqueda de revisión del paradigma dominante y la recuperación de una perspectiva teórica heterodoxa y multidisciplinar. Sin embargo, después de seis años desde la deflagración de la crisis, persisten los interrogantes políticos y teóricos sobre las nuevas estrategias para el desarrollo de la región. Los países emergentes están en un momento decisivo de definición de esas estrategias de desarrollo sostenido, no obstante, el debate teórico académico, a pesar de haber avanzado mucho en los últimos años, todavía no es capaz de ofrecer una respuesta mínimamente consensuada sobre varios aspectos chaves del desarrollo.');?> </p>
 			</div>
         	<div class="col-md-6">
@@ -49,7 +49,7 @@ $this->title = 'RISE';
         <div class="row content">
         	<div class="col-lg-12">
 	        	<div id='panels-title'>
-	        		<h2><?= Yii::t('app', 'Mesas Temáticas');?></h2>
+                    <span class="section-title"><h2><?= Yii::t('app', 'Mesas Temáticas');?></h2></span>
 	        	</div>
         		<ol class="panels-list">
         			<li> <?= Yii::t('app', 'El debate sobre el Estado de la Socio-economia');?> </li>
@@ -70,7 +70,7 @@ $this->title = 'RISE';
     <div id="boards">
         <div class="row content">
             <div class="col-md-8">
-                <span class="section-title scientific"><h2 class="noth2"><?= Yii::t('app', 'Científico');?></h2></span>
+                <span class="board-title scientific"><h2 class="noth2"><?= Yii::t('app', 'Científico');?></h2></span>
                 <ul class="scientific-list">
                     <li>Dr. Pedro Cezar Dutra Fonseca (UFRGS)</li>
                     <li>Dr. Fernando Ferrari Filho (UFRGS)</li>
@@ -96,7 +96,7 @@ $this->title = 'RISE';
                 </ul>
             </div>
             <div class="col-md-4">
-                <span class="section-title administrative"><h2 class="noth2"><?= Yii::t('app', 'Organizador');?></h2></span>
+                <span class="board-title administrative"><h2 class="noth2"><?= Yii::t('app', 'Organizador');?></h2></span>
                 <ul class="administrative-list">
                     <li>Dr. Pedro Cezar Dutra Fonseca (UFRGS)​</li>
                     <li>Dr. Fernando Ferrari Fillho (UFRGS) </li>
@@ -115,7 +115,7 @@ $this->title = 'RISE';
     <div id="papers">
         <div class="row content">
         	<div class="col-md-9">
-	        	<h2> <?= Yii::t('app', 'Envío de Comunicaciones');?> </h2>
+                <span class="section-title"><h2><?= Yii::t('app', 'Envío de Comunicaciones');?></h2></span>
         		<ol>
         			<li> <?= Yii::t('app', 'Enviar resúmenes hasta el 30 de Septiembre de 2015.');?> </li>
         			<li> <?= Yii::t('app', 'Aviso de aceptación de la comunicación hasta el 15 de Octubre de 2015.');?> </li>
@@ -146,7 +146,7 @@ $this->title = 'RISE';
     <div id="deadline">
         <div class="row content">
         	<div class="col-lg-12">
-	        	<h2><?= Yii::t('app', 'Fechas');?></h2>
+            <span class="section-title"><h2><?= Yii::t('app', 'Fechas');?></h2></span>
 			</div>
         </div>
         <div class="row content">
@@ -172,7 +172,7 @@ $this->title = 'RISE';
     <div id="infos">
     	<div class="row content">
     		<div class="col-lg-12">
-    			<h2><?= Yii::t('app', 'Info');?></h2>
+            <span class="section-title"><h2><?= Yii::t('app', 'Info');?></h2></span>
     		</div>
     	</div>
     	<div class="row content top">
@@ -443,6 +443,38 @@ $this->title = 'RISE';
 	    </div>
     </div>
 
+    <div id="registration">
+        <div class="row content">
+            <div class="col-md-6">
+                <span class="section-title"><h2 class="noth2"><?= Yii::t('app', 'Inscripciones');?></h2></span>
+                <p class="registration-info"><?= Yii::t('app', 'Para participar de la II Reunión Iberoamericana de Socioeconomia (sase-rise), acceda los enlaces al lado.');?></p>
+                <p class="registration-info"><?= Yii::t('app', 'Para la presentación de trabajos, es necesario realizar la inscripción en la página web de la SASE. Se usted desea solamente ver las conferencias, haga la inscripción sin costos por el enlace al lado (se pueden emitir certificados por el Sitio PROREXT de la Universidad Federal de Rio Grande do Sul por el precio de R$ 4,00).') ;?></p>
+            </div>
+            <div class="col-md-6">
+                <a href="https://sase.org/about-sase/join-sase-_fr_55.html">
+                    <div class="registration-box">
+                        <p><span>Early Bird Porto Alegre</span><br/>sase membership + meeting fee</p>
+                        <p class="registration-price">$100.00</p>
+                    </div>
+                </a>
+                <p class="registration-deadline"><?= Yii::t('app', 'Fin de plazo: 1 de Octobre, 2015.') ;?></p>
+                <a href="https://sase.org/about-sase/join-sase-_fr_55.html">
+                    <div class="registration-box">
+                        <p><span>Early Bird Porto Alegre</span><br/>sase student membership + meeting fee</p>
+                        <p class="registration-price">$50.00</p>
+                    </div>
+                </a>
+                <p class="registration-deadline"><?= Yii::t('app', 'Fin de plazo: 1 de Octobre, 2015.') ;?></p>
+                <a href="https://docs.google.com/forms/d/1p8BLmmTfEO4WuovIlEutGx1ursPSzLgjGECpm1R3Un0/viewform?c=0&w=1">
+                    <div class="registration-box">
+                        <p><span><?= Yii::t('app', 'INSCRIPCIÓN PARA OYENTE') ;?></span></p>
+                        <p><?= Yii::t('app', 'participantes que no presentarán trabajos') ;?></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--
     <div id="contact">
         <div class="row content">
         	<div class="col-lg-6">
@@ -451,5 +483,5 @@ $this->title = 'RISE';
 			</div>
         </div>
     </div>
-
+    -->
 </div>

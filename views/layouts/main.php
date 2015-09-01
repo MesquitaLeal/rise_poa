@@ -53,14 +53,14 @@ AppAsset::register($this);
 					['label' => Yii::t('app', 'Fechas'), 'url' => ['/site/index', '#'=>'deadline']],
 					['label' => Yii::t('app', 'Info'), 'url' => ['/site/index', '#'=>'infos']],
 					['label' => Yii::t('app', 'Inscripciones'), 'url' => ['/site/index', '#'=>'registration']],
-					['label' => $xy,
+					['label' => '<i class="fa fa-globe"></i>',
 						'items' => [
 							['label' => 'English', 'url' => ['/site/us']],
 							['label' => 'Español', 'url' => ['/site/es']],
 							['label' => 'Português', 'url' => ['/site/pt']],
 						],
 					],
-					['label' => '<i class="fa fa-envelope"></i>', 'url' => ['site/index']],
+					'<li><a href="mailto:ti@cegov.ufrgs.br"><i class="fa fa-envelope"></i></a></li>',
 					Yii::$app->user->isGuest ?
 						['label' => '<i class="fa fa-user"></i>', 'url' => ['/site/login']] :
 						['label' => '<i class="fa fa-user-times"></i>' /*. Yii::$app->user->identity->name .*/,

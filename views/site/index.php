@@ -188,7 +188,7 @@ $this->title = 'RISE';
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h2 class="modal-title"><?=Yii::t('app', 'General')?></h2>
+                                            <span class="section-title"><h2><?=Yii::t('app', 'General')?></h2></span>
                                             <p class="modal-source">* <?= Yii::t('app', 'Fuente')?>: <a href="http://www.turismo.rs.gov.br/conteudo/2670/guia-do-torcedor-guia-del-hincha-fan-guide">Secretaria de Turismo, Esporte e Lazer do Rio Grande do Sul</a></p>
                                         </div>
                                     </div>
@@ -239,7 +239,7 @@ $this->title = 'RISE';
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h2 class="modal-title">Porto Alegre</h2>
+                                            <span class="section-title"><h2>Porto Alegre</h2></span>
                                             <p class="modal-source">* <?= Yii::t('app', 'Fuente')?>: <a href="http://www.turismo.rs.gov.br/conteudo/2670/guia-do-torcedor-guia-del-hincha-fan-guide">Secretaria de Turismo, Esporte e Lazer do Rio Grande do Sul</a></p>
                                         </div>
                                     </div>
@@ -298,7 +298,7 @@ $this->title = 'RISE';
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h2 class="modal-title"><?=Yii::t('app', 'Cultural')?></h2>
+                                            <span class="section-title"><h2><?=Yii::t('app', 'Cultural')?></h2></span>
                                             <p class="modal-source">* <?= Yii::t('app', 'Fuente')?>: <a href="http://www.turismo.rs.gov.br/conteudo/2670/guia-do-torcedor-guia-del-hincha-fan-guide">Secretaria de Turismo, Esporte e Lazer do Rio Grande do Sul</a></p>
                                         </div>
                                     </div>
@@ -378,7 +378,7 @@ $this->title = 'RISE';
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h2 class="modal-title"><?=Yii::t('app', 'Hoteles')?></h2>
+                                            <span class="section-title"><h2><?=Yii::t('app', 'Hoteles')?></h2></span>
                                             <p class="modal-source">* <?= Yii::t('app', 'Fuente')?>: <a href="http://www.ufrgs.br/decor/pasghosp/Tarifas%20Hoteis%202012.pdf">UFRGS</a></p>
                                         </div>
                                     </div>

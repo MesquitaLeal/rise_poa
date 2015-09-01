@@ -570,7 +570,8 @@ footer a:hover {
     background-color: #DDE0BA;
 }
 
-#infos .section-title h2 {
+#infos .section-title h2,
+#infos .section-title:before {
     color: #720632;
 }
 
@@ -653,6 +654,30 @@ footer a:hover {
     font-family: "AncillaryBold";
     font-size: 0.9rem;
     text-transform: uppercase;
+}
+
+#infoModal .section-title {
+    width: 200px;
+    margin-bottom: 0;
+}
+
+#poaModal .section-title {
+    width: 300px;
+}
+
+#culturaModal .section-title {
+    width: 220px;
+}
+
+#hotelModal .section-title {
+    width: 200px;
+}
+
+#infoModal .section-title:after,
+#poaModal .section-title:after,
+#culturaModal .section-title:after,
+#hotelModal .section-title:after {
+    border-top-color: #C1BCA4;
 }
 
 #registration {

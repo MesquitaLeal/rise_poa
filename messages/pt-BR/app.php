@@ -239,9 +239,9 @@ return [
     //Inscripciones
     'Inscripciones' => 'Inscrições',
     'Para participar de la II Reunión Iberoamericana de Socioeconomia (sase-rise), acceda los enlaces al lado.' => 'Para participar da II Reunião Ibero-americana de Socioeconomia (sase-rise), acesse os links ao lado.',
-    'Para la presentación de trabajos, es necesario realizar la inscripción en la página web de la SASE. Se usted desea solamente ver las conferencias, haga la inscripción sin costos por el enlace al lado (se pueden emitir certificados por el Sitio PROREXT de la Universidad Federal de Rio Grande do Sul por el precio de R$ 4,00).' => 'Para a apresentação de trabalhos é necessário realizar inscrição no site da SASE. Caso você deseje somente assistir as conferências, inscreva-se pelo link ao lado, sem custos (a emissão de certificado pelo portal PRORExt/UFRGS tem custo de R$4,00).',
+    'Para la presentación de trabajos, es necesario realizar la inscripción en la página web de la SASE. Socios de SASE deben hacer el login en el sitio de SASE antes de efectuar el pagamiento de la taza de la reunión. Se usted desea solamente ver las conferencias, haga la inscripción sin costos por el enlace al lado (se pueden emitir certificados por el Sitio PROREXT de la Universidad Federal de Rio Grande do Sul por el precio de R$ 4,00).' => 'Para a apresentação de trabalhos é necessário realizar inscrição no site da SASE. Sócios da SASE devem realizar o login na página da SASE antes de efetuar o pagamento da taxa do evento. Caso você deseje somente assistir as conferências, inscreva-se pelo link ao lado, sem custos (a emissão de certificado pelo portal PRORExt/UFRGS tem custo de R$4,00).',
     'INSCRIPCIÓN PARA OYENTE' => 'INSCRIÇÃO PARA OUVINTE',
     'participantes que no presentarán trabajos' => 'participantes que não apresentarão trabalhos',
-    'Fin de plazo: 1 de Octobre, 2015.' => 'Fim de prazo: 1 de Outubro de 2015.'
+    'Fin de plazo: 15 de Octobre, 2015.' => 'Fim de prazo: 15 de Outubro de 2015.'
 
 ];

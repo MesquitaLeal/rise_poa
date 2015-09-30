@@ -245,10 +245,10 @@ return [
     //Inscripciones
     'Inscripciones' => 'Registrations',
     'Para participar de la II Reunión Iberoamericana de Socioeconomia (sase-rise), acceda los enlaces al lado.' => 'To participate in the II Ibero-American Socio-Economic Regional Meeting (sase-rise), access the links on the right.',
-    'Para la presentación de trabajos, es necesario realizar la inscripción en la página web de la SASE. Se usted desea solamente ver las conferencias, haga la inscripción sin costos por el enlace al lado (se pueden emitir certificados por el Sitio PROREXT de la Universidad Federal de Rio Grande do Sul por el precio de R$ 4,00).' => 'In order to present your paper, it is necessary to register on the SASE website. If you want only to attend the conferences as a listener (without paper presentation), sign up for free on the link on the right (certificates can be issued by the PRORext Website of the Federal University of Rio Grande do Sul, for the price of R$ 4,00).',
+    'Para la presentación de trabajos, es necesario realizar la inscripción en la página web de la SASE. Socios de SASE deben hacer el login en el sitio de SASE antes de efectuar el pagamiento de la taza de la reunión. Se usted desea solamente ver las conferencias, haga la inscripción sin costos por el enlace al lado (se pueden emitir certificados por el Sitio PROREXT de la Universidad Federal de Rio Grande do Sul por el precio de R$ 4,00).' => 'In order to present your paper, it is necessary to register on the SASE website. SASE members must login in SASE\'s website prior to paying the meeting fee. If you want only to attend the conferences as a listener (without paper presentation), sign up for free on the link on the right (certificates can be issued by the PRORext Website of the Federal University of Rio Grande do Sul, for the price of R$ 4,00).',
     'INSCRIPCIÓN PARA OYENTE' => 'REGISTRATION FOR LISTENER',
     'participantes que no presentarán trabajos' => 'participants not presenting papers',
-    'Fin de plazo: 1 de Octobre, 2015.' => 'Deadline: October, 1st.'
+    'Fin de plazo: 15 de Octobre, 2015.' => 'Deadline: October, 15th.'
 
 
 ];

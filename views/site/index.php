@@ -137,7 +137,7 @@ $this->title = 'RISE';
             <div class="col-md-3">
                 <div class="papers-box">
                     <p><?= Yii::t('app', 'Fecha<br/> final para<br/> envío');?><br/><span class="fecha-final"><?= Yii::t('app', '30/09/2015');?></span></p>
-                    <a href="index.php?r=abstracts/create"><button class="btn-envio"><h4> <?= Yii::t('app', 'Enviar Resumen');?> </h4></button></a>
+                    <!--<a href="index.php?r=abstracts/create"><button class="btn-envio"><h4> <?= Yii::t('app', 'Enviar Resumen');?> </h4></button></a>-->
                 </div>
             </div>
         </div>
@@ -409,10 +409,19 @@ $this->title = 'RISE';
                                             <h6>Express Perimetral</h6>
                                             <p>http://www.master-hoteis.com.br/<br/>Av. Loureiro da Silva, 1840<br/>0800 707 6444 | (51) 3287 4466 | (51) 3023 9503</p>
                                             <br/>
-                                        </div>
-                                        <div class="col-md-6">
+                                            <h6>Hotel Embaixador</h6>
+                                            <p>http://www.embaixador.com.br/<br/>Rua Jerônimo Coelho, 354<br/>(51) 3215 6600</p>
+                                            <br/>
+                                            <h6>Hotel Ibis Porto Alegre Moinhos de Vento</h6>
+                                            <p>http://www.ibis.com<br/>Rua Marquês do Herval, 540<br/>(51) 2112 2772</p>
+                                            <br/>
                                             <h6>Holiday Inn – POA</h6>
                                             <p>http://www.ihg.com/holidayinn/hotels<br/>Av. Carlos Gomes, 565<br/>0800 770 0858 | (51) 3378 2727</p>
+                                            <br/>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6>Hotel Laghetto Viverone Moinhos</h6>
+                                            <p>http://www.hotellaghettomoinhos.com.br/<br/>Rua Dr. Vale, 579 <br/>(51) 2102 7272</p>
                                             <br/>
                                             <h6>Hotel Embaixador</h6>
                                             <p>http://www.embaixador.com.br/<br/>Rua Jerônimo Coelho, 354<br/>(51) 3215 6600</p>
@@ -423,14 +432,24 @@ $this->title = 'RISE';
                                             <h6>Master Palace Express & Suítes</h6>
                                             <p>http://www.master-hoteis.com.br/<br/>Rua Senhor dos Passos, 221<br/>0800 707 6444 | (51) 3287 4466 | (51) 3027 5711</p>
                                             <br/>
+                                            <h6>Mercure Porto Alegre Manhattan Hotel</h6>
+                                            <p>http://www.mercure.com<br/>Rua Miguel Tostes, 30<br/>(51) 3024 3030</p>
+                                            <br/>
                                             <h6>Plaza Porto Alegre</h6>
                                             <p>http://www.plazahoteis.com.br/<br/>Rua Senhor dos Passos, 154<br/>0800 70 75 292 | (51) 3220 8000</p>
                                             <br/>
                                             <h6>Plaza São Rafael</h6>
                                             <p>http://www.plazahoteis.com.br/saorafael/<br/>Av. Alberto Bins,<br/>0800 70 75 292 | (51) 3220 7000</p>
                                             <br/>
+                                            <h6>Quality Hotel Porto Alegre</h6>
+                                            <p>https://www.choicehotels.com<br/>Rua Comendador Caminha, 42<br/>(51) 3275 1555</p>
+                                            <br/>
                                             <h6>Royal Palace Airport</h6>
                                             <p>http://www.master-hoteis.com.br/<br/>Av. Maranhão, 1061<br/>0800 707 6444 | (51) 3287 4466 | (51) 3079 4700 </p>
+                                            <br/>
+                                            <h6>Sheraton Porto Alegre Hotel</h6>
+                                            <p>http://www.sheraton-poa.com.br/<br/>Rua Olavo Barreto Viana 18<br/>(51) 2121 6000</p>
+                                            <br/>
                                         </div>
                                     </div>
                                 </div>
@@ -453,18 +472,18 @@ $this->title = 'RISE';
             <div class="col-md-6">
                 <a href="https://sase.org/about-sase/join-sase-_fr_55.html">
                     <div class="registration-box">
-                        <p><span>Early Bird Porto Alegre</span><br/>sase membership + meeting fee</p>
+                        <p><span>Porto Alegre</span><br/>sase membership + meeting fee</p>
                         <p class="registration-price">$100.00</p>
                     </div>
                 </a>
-                <p class="registration-deadline"><?= Yii::t('app', 'Fin de plazo: 15 de Octobre, 2015.') ;?></p>
+                <p class="registration-deadline"><?//= Yii::t('app', 'Fin de plazo: 15 de Octobre, 2015.') ;?></p>
                 <a href="https://sase.org/about-sase/join-sase-_fr_55.html">
                     <div class="registration-box">
-                        <p><span>Student Early Bird Porto Alegre</span><br/>sase student membership + meeting fee</p>
+                        <p><span>Student Porto Alegre</span><br/>sase student membership + meeting fee</p>
                         <p class="registration-price">$50.00</p>
                     </div>
                 </a>
-                <p class="registration-deadline"><?= Yii::t('app', 'Fin de plazo: 15 de Octobre, 2015.') ;?></p>
+                <p class="registration-deadline"><?//= Yii::t('app', 'Fin de plazo: 15 de Octobre, 2015.') ;?></p>
                 <a href="https://docs.google.com/forms/d/1p8BLmmTfEO4WuovIlEutGx1ursPSzLgjGECpm1R3Un0/viewform?c=0&w=1">
                     <div class="registration-box">
                         <p><span><?= Yii::t('app', 'INSCRIPCIÓN PARA OYENTE') ;?></span></p>

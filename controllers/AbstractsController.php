@@ -22,7 +22,7 @@ class AbstractsController extends InitController
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['index', 'update', 'delete'],
+                'only' => ['index', 'create', 'update', 'delete'],
                 'rules' => [
                     [
                         'allow' => true,

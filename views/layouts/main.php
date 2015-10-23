@@ -49,7 +49,7 @@ AppAsset::register($this);
 					['label' => Yii::t('app', 'Tema'), 'url' => ['/site/index', '#'=>'theme']],
 					['label' => Yii::t('app', 'Mesas'), 'url' => ['/site/index', '#'=>'panels']],
 					['label' => Yii::t('app', 'Comités'), 'url' => ['/site/index', '#'=>'boards']],
-					['label' => Yii::t('app', 'Envío'), 'url' => ['/site/index', '#'=>'papers']],
+					['label' => Yii::t('app', 'Programa'), 'url' => ['/site/index', '#'=>'program']],
 					['label' => Yii::t('app', 'Fechas'), 'url' => ['/site/index', '#'=>'deadline']],
 					['label' => Yii::t('app', 'Info'), 'url' => ['/site/index', '#'=>'infos']],
 					['label' => Yii::t('app', 'Inscripciones'), 'url' => ['/site/index', '#'=>'registration']],
@@ -60,7 +60,7 @@ AppAsset::register($this);
 							['label' => 'Português', 'url' => ['/site/pt']],
 						],
 					],
-					'<li><a href="mailto:ti@cegov.ufrgs.br"><i class="fa fa-envelope"></i></a></li>',
+					'<li><a href="mailto:2rise.ufrgs.portoalegre@gmail.com"><i class="fa fa-envelope"></i></a></li>',
 					Yii::$app->user->isGuest ?
 						['label' => '<i class="fa fa-user"></i>', 'url' => ['/site/login']] :
 						['label' => '<i class="fa fa-user-times"></i>' /*. Yii::$app->user->identity->name .*/,

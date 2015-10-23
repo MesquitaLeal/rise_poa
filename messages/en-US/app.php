@@ -109,6 +109,44 @@ return [
     'Enviar Resumen' => 'Send abstract',
     'Fecha<br/> final para<br/> envío' => 'Deadline<br/>for submissions',
 
+    //Program
+    'Programa' => 'Program',
+    'Moderador' => 'Mediator',
+    'Registro' => 'Registration',
+    'Sesiones simultáneas' => 'Simultaneous sessions',
+    'Ceremonia de Apertura' => 'Opening ceremony',
+    'Ceremonia de Encerramiento' => 'Closing ceremony',
+    'Conferencia' => 'Conference',
+    'Cultura, Creatividad y Desarrollo' => 'Culture, Creativity and Development',
+    'Desarrollo Comparado: trayectorias de México e Brasil' => 'Comparing Development: Trajectories of Mexico and Brazil',
+    'Socioconomia y estudios iberoamericanos: estado de la arte y perspectivas' => 'Socio-Economics and Ibero­American Studies: the state of the art and perspectives',
+    'O Desarrollo de América Latina en Perspectiva' => 'Latin American Development in Perspective',
+    '(Universidad Erasmus de Rotterdam, Holanda)' => '(Erasmus University Rotterdam, Netherlands)',
+    '(Universidad de Valencia, España)' => '(University of Valencia, Spain)',
+    '(Universidad Federal de Rio Grande do Sul)' => '(Federal University of Rio Grande do Sul, Brazil)',
+    '(Universidad Nacional Autónoma de México, México)' => '(National Autonomous University of Mexico, Mexico)',
+    '(Universidad Autónoma de Madrid, España)' => '(Autonomous University of Madrid, Spain)',
+    '(Universidad de Buenos Aires, Argentina)' => '(University of Buenos Aires, Argentina)',
+    '(Universidad de Oxford, Reino Unido)' => '(University of Oxford, UK)',
+    '19 de noviembre' => 'November 19th',
+    '20 de noviembre' => 'November 20th',
+    '21 de noviembre' => 'Novemebr 21st',
+    'Jueves' => 'Thursday',
+    'Viernes' => 'Friday',
+    'Sábado' => 'Saturday',  
+    '08:00 – 09:00' => '08:00 AM - 09:00 AM',
+    '09:00 – 10:30' => '09:00 AM - 10:30 AM',
+    '10:45 – 12:30' => '10:45 AM - 12:30 PM',
+    '11:00 – 12:30' => '11:00 AM - 12:30 PM',
+    '12:00 – 14:00' => '12:00 PM - 14:00 PM',
+    '12:30 – 13:00' => '12:30 PM - 13:00 PM',
+    '14:00 – 15:30' => '02:00 PM - 03:30 PM',
+    '14:30 – 16:30' => '02:30 PM - 04:30 PM',
+    '16:00 – 17:30' => '04:00 PM - 05:30 PM',
+    '17:00 – 18:30' => '05:00 PM - 06:30 PM',
+    '18:30 – 19:00' => '06:30 PM - 07:00 PM',
+    '19:00 – 21:00' => '07:00 PM - 09:00 PM',
+
     //Deadlines
     '01/04/2015' => 'April 1st, 2015',
     'Abre plazo para recibir las comunicaciones' => 'Call for submissions',
@@ -241,6 +279,13 @@ return [
 
     //Hoteles
     'Hoteles' => 'Hotels',
+
+    //Restaurants
+    'Restaurantes' => 'Restaurants',
+
+    //Mapa
+    'Mapa de interés' => 'Map',
+    'Pronto' => 'Soon',
 
     //Inscripciones
     'Inscripciones' => 'Registrations',

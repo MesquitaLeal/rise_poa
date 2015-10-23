@@ -111,6 +111,31 @@ return [
     'Enviar Resumen' => 'Enviar Resumo',
     'Fecha<br/> final para<br/> envío' => 'Prazo <br/>final para<br/> envio',
 
+    //Program
+    'Moderador' => 'Mediador',
+    'Registro' => 'Credenciamento',
+    'Sesiones simultáneas' => 'Sessões Simultâneas',
+    'Ceremonia de Apertura' => 'Cerimônia de Abertura',
+    'Ceremonia de Encerramiento' => 'Cerimônia de Encerramento',
+    'Conferencia' => 'Conferência',
+    'Cultura, Creatividad y Desarrollo' => 'Cultura, Criatividade e Desenvolvimento',
+    'Desarrollo Comparado: trayectorias de México e Brasil' => 'Desenvolvimento Comparado: trajetórias de México e Brasil',
+    'Socioconomia y estudios iberoamericanos: estado de la arte y perspectivas' => 'Socioconomia e Estudos Ibero-americanos: estado da arte e perspectivas',
+    'O Desarrollo de América Latina en Perspectiva' => 'O Desenvolvimento da América Latina em Perspectiva',
+    '(Universidad Erasmus de Rotterdam, Holanda)' => '(Universidade Erasmus de Rotterdam, Holanda)',
+    '(Universidad de Valencia, España)' => '(Universidade de Valência, Espanha)',
+    '(Universidad Federal de Rio Grande do Sul)' => '(Universidade Federal de Rio Grande do Sul)',
+    '(Universidad Nacional Autónoma de México, México)' => '(Universidade Nacional Autônoma do México, México)',
+    '(Universidad Autónoma de Madrid, España)' => '(Universidade Autônoma de Madri, Espanha)',
+    '(Universidad de Buenos Aires, Argentina)' => '(Universidade de Buenos Aires, Argentina)',
+    '(Universidad de Oxford, Reino Unido)' => '(Universidade de Oxford, Reino Unido)',
+    '19 de noviembre' => '19 de novembro',
+    '20 de noviembre' => '20 de novembro',
+    '21 de noviembre' => '21 de novembro',
+    'Jueves' => 'Quinta',
+    'Viernes' => 'Sexta',
+
+
     //Deadlines
     'Abre plazo para recibir las comunicaciones' => 'Abre prazo para recebimento de resumos',
     'Finaliza plazo para recibir las comunicaciones' => 'Fim do prazo para receber as comunicações',
@@ -235,6 +260,11 @@ return [
 
     //Hoteles
     'Hoteles' => 'Hotéis',
+
+    //Mapa
+    'Mapa de interés' => 'Mapas',
+    'Pronto' => 'Em breve',
+
 
     //Inscripciones
     'Inscripciones' => 'Inscrições',

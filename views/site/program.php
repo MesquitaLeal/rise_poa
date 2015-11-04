@@ -16,7 +16,7 @@
                 <p class="program-conference">
                     <?= Yii::t('app', 'Cultura, Creatividad y Desarrollo');?></p>
                     <ul class="program-list">
-                        <li>Filip Vermaylen <?= Yii::t('app', '(Universidad Erasmus de Rotterdam, Holanda)');?></li>
+                        <li>Filip Vermeylen <?= Yii::t('app', '(Universidad Erasmus de Rotterdam, Holanda)');?></li>
                         <li>Pau Rausell Köster <?= Yii::t('app', '(Universidad de Valencia, España)');?></li>
                         <li><?= Yii::t('app', 'Moderador');?>: Leandro Valiati <?= Yii::t('app', '(Universidad Federal de Rio Grande do Sul)');?></li>
                     </ul>
@@ -41,6 +41,7 @@
                 <p class="program-conference"><?= Yii::t('app', 'Socioconomia y estudios iberoamericanos: estado de la arte y perspectivas');?></p>
                 <ul class="program-list">
                     <li>Luis Enrique Alonso <?= Yii::t('app', '(Universidad Autónoma de Madrid, España)');?></li>
+                    <li>Maria Lourdes Mollo <?= Yii::t('app', '(Universidad de Brasília, Brasil)');?></li>
                     <li><?= Yii::t('app', 'Moderador');?>: Ricardo Dathein <?= Yii::t('app', '(Universidad Federal de Rio Grande do Sul)');?></li>
                 </ul>
             </div>

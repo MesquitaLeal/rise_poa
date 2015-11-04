@@ -31,26 +31,7 @@ body {
     font-size: 17px;
     font-weight: 400;
 }
-/*
-h2:not(.noth2),
-h3 {
-    font-family: "AncillaryRegular", Arial, sans-serif;
-    color: #3D687F;
-    text-transform: uppercase;
-    border-left: 0px solid transparent;
-    border-right: 30px solid transparent;
-    height: 0;
-}
 
-h2:not(.modal-title):not(.noth2):first-of-type:before {
-    content: "+";
-    font-family: "TypoGroteskThin", Arial, sans-serif;
-    color: rgb(61, 104, 127);
-    position: absolute;
-    top: -25px;
-    left:-20px;
-}
-*/
 footer p {
     text-align: center;
     color: #FFFFFF;
@@ -983,7 +964,7 @@ a.desc:after {
 
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 992px) and (max-width: 1280px) {
     .content {
         max-width: 900px;
     }
@@ -991,15 +972,10 @@ a.desc:after {
     .modal-lg {
         width: 1000px;
     }
-}
 
-@media screen and (min-width: 992px) and (max-width: 1024px) {
-    .content {
-        max-width: 900px;
-    }
-
-    .modal-lg {
-        width: 1000px;
+    #infos img {
+        width: 70px;
+        padding: 30px;
     }
 }
 
@@ -1068,6 +1044,24 @@ a.desc:after {
 
     .papers-box {
         display: none;
+    }
+
+    #infos img {
+        width: 60px;
+        padding: 20px;
+    }
+
+    #infos .link-title {
+        margin-top: 110px;
+        font-size: 0.9rem;
+    }
+
+    .program-box {
+        margin-bottom: 50px;
+    }
+
+    .col-md-4:last-of-type .program-box {
+        margin-bottom: 0;
     }
 
 }
@@ -1187,7 +1181,8 @@ a.desc:after {
     }
 
     .link-title {
-        margin-top: 100px;
+        margin-top: 130px;
+        margin-bottom: 50px;
     }
 }
 
@@ -1230,5 +1225,27 @@ a.desc:after {
         font-size: 1.7rem;
         line-height: 1.5rem;
         max-width: 314px;
+    }
+
+    #panels .section-title {
+        width: 250px;
+        background-color: #C1BCA4;
+    }
+
+    #panels .section-title:lang(en-US) {
+        width: 190px;
+    }
+
+    #panels .section-title {
+        height: 110px;
+    }
+
+    #panels .section-title:after {
+        border-top: 110px solid #5B8AB6;
+        border-left: 55px solid transparent;
+    }
+
+    .modal-body {
+        padding: 70px 30px;
     }
 }

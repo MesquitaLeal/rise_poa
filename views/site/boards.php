@@ -1,7 +1,7 @@
 <section id="boards">
     <div class="row content">
         <div class="col-md-8">
-            <span class="board-title scientific"><h2 class="noth2"><?= Yii::t('app', 'Científico');?></h2></span>
+            <span class="board-title scientific"><h2><?= Yii::t('app', 'Científico');?></h2></span>
             <ul class="scientific-list">
                 <li>Dr. Pedro Cezar Dutra Fonseca (UFRGS)</li>
                 <li>Dr. Fernando Ferrari Filho (UFRGS)</li>
@@ -27,7 +27,7 @@
             </ul>
         </div>
         <div class="col-md-4">
-            <span class="board-title administrative"><h2 class="noth2"><?= Yii::t('app', 'Organizador');?></h2></span>
+            <span class="board-title administrative"><h2><?= Yii::t('app', 'Organizador');?></h2></span>
             <ul class="administrative-list">
                 <li>Dr. Pedro Cezar Dutra Fonseca (UFRGS)​</li>
                 <li>Dr. Fernando Ferrari Fillho (UFRGS) </li>

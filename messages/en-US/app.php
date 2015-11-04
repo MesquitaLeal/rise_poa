@@ -124,6 +124,7 @@ return [
     '(Universidad Erasmus de Rotterdam, Holanda)' => '(Erasmus University Rotterdam, Netherlands)',
     '(Universidad de Valencia, España)' => '(University of Valencia, Spain)',
     '(Universidad Federal de Rio Grande do Sul)' => '(Federal University of Rio Grande do Sul, Brazil)',
+    '(Universidad de Brasília, Brasil)' => '(Federal University of Brasilia, Brazil)',
     '(Universidad Nacional Autónoma de México, México)' => '(National Autonomous University of Mexico, Mexico)',
     '(Universidad Autónoma de Madrid, España)' => '(Autonomous University of Madrid, Spain)',
     '(Universidad de Buenos Aires, Argentina)' => '(University of Buenos Aires, Argentina)',

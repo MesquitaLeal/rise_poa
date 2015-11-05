@@ -740,6 +740,7 @@ footer a:hover {
 .registration-info:last-of-type {
     width: 80%;
     font-size: 0.9rem;
+    margin-bottom: 50px;
 }
 
 .registration-box {
@@ -820,10 +821,9 @@ section {
 }
 
 .footer {
-    height: 60px;
     background-color: #1e1e1e;
     border-top: 1px solid #ddd;
-    padding-top: 20px;
+    padding: 10px 0 5px 0;
 }
 
 .not-set {
@@ -1012,10 +1012,15 @@ a.desc:after {
         width: 150px;
         margin-top: -150px;
         margin-right: 10px;
+        padding: 0;
     }
 
     #deadline .box:first-child {
-        margin-left: 15px;
+        margin-top: 0;
+    }
+
+    #deadline h6 {
+        font-size: 1.2rem
     }
 
     .content {
@@ -1067,6 +1072,58 @@ a.desc:after {
 }
 
 @media screen and (max-width: 767px) {
+    #about .section-title {
+        width: 180px;
+        height: 65px;
+    }
+
+    #about .section-title:lang(en-US) {
+        width: 190px;
+    }
+
+    #about .section-title h2 {
+        font-size: 2rem;
+    }
+
+    #theme .section-title {
+        width: 420px;
+        height: 60px;
+    }
+
+    #theme .section-title:nth-of-type(2) {
+        width: 320px;
+        height: 60px;
+    }
+
+    #theme .section-title:last-of-type {
+        width: 420px;
+        height: 80px;
+    }
+
+    #theme .section-title:lang(pt-BR) {
+        width: 420px;
+    }
+
+    #theme .section-title:nth-of-type(2):lang(en-US) {
+        width: 360px;
+    }
+
+    #theme .section-title:nth-of-type(2):lang(pt-BR) {
+        width: 320px;
+    }
+
+    #theme .section-title:last-of-type:lang(en-US) {
+        width: 420px;
+    }
+
+    #theme .section-title h2 {
+        font-size: 2rem;
+    }
+
+    #theme .section-title h3 {
+        font-size: 1.5rem;
+    }
+
     #home-content {
         position: relative;
         bottom: 0;
@@ -1111,20 +1168,6 @@ a.desc:after {
 
     #theme .col-md-6 p:nth-child(1) {
         padding-top: 0;
-    }
-
-    #panels h2 {
-        max-width: 290px;
-        line-height: 2rem;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    #panels h2:after {
-        border-top: 100px solid rgb(91, 138, 182);
-        border-left: 45px solid transparent;
-        top: 65px;
-        left:8px;
     }
 
     .administrative {
@@ -1184,41 +1227,58 @@ a.desc:after {
         margin-top: 130px;
         margin-bottom: 50px;
     }
+
+    .program-box {
+        margin-bottom: 50px;
+    }
+
+    #deadline .box:first-child {
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 439px) {
-    #theme h2 {
-        max-width: 250px;
-        line-height: 2rem;
-        padding-top: 10px;
-        padding-bottom: 10px;
+    #theme .section-title {
+        width: 290px;
+        height: 50px;
     }
 
-    #theme h2:last-of-type {
-        max-width: 280px;
-        margin-top: -69px;
+    #theme .section-title:nth-of-type(2) {
+        width: 210px;
+        height: 50px;
     }
 
-    #theme h2:after {
-        border-top: 200px solid #c1bca4;
-        border-left: 100px solid transparent;
-        top: 65px;
-        left:165px;
+    #theme .section-title:last-of-type {
+        width: 290px;
+        height: 65px;
     }
 
-    #theme h2:last-of-type:after {
-        border: none;
+    #theme .section-title:lang(en-US) {
+        width: 270px;
     }
 
-    #theme h3 {
-        max-width: 290px;
+    #theme .section-title:lang(pt-BR) {
+        width: 300px;
     }
 
-    #theme h3:after {
-        border-top: 140px solid #c1bca4;
-        border-left: 70px solid transparent;
-        top: 68px;
-        left:8px;
+    #theme .section-title:nth-of-type(2):lang(en-US) {
+        width: 220px;
+    }
+
+    #theme .section-title:nth-of-type(2):lang(pt-BR) {
+        width: 200px;
+    }
+
+    #theme .section-title:last-of-type:lang(en-US) {
+        width: 280px;
+    }
+
+    #theme .section-title h2 {
+        font-size: 1.4rem;
+    }
+
+    #theme .section-title h3 {
+        font-size: 1rem;
     }
 
     #papers h2 {
@@ -1228,7 +1288,8 @@ a.desc:after {
     }
 
     #panels .section-title {
-        width: 250px;
+        width: 280px;
+        height: 50px;
         background-color: #C1BCA4;
     }
 
@@ -1236,13 +1297,21 @@ a.desc:after {
         width: 190px;
     }
 
-    #panels .section-title {
-        height: 110px;
+    #panels .section-title h2 {
+        font-size: 1.4rem;
+        padding-top: 0;
     }
 
-    #panels .section-title:after {
-        border-top: 110px solid #5B8AB6;
-        border-left: 55px solid transparent;
+    .registration-box span {
+        font-size: 1rem;
+    }
+
+    .registration-price {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+
     }
 
     .modal-body {

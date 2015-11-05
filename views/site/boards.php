@@ -8,7 +8,8 @@
                 <li>Dr. Santos M. Ruesga (Universidad Autónoma de Madrid)</li>
                 <li>Dr. Rolando Cordera (UNAM - México)</li>
                 <li>Dr. Gerardo Fujii (UNAM - México)</li>
-                <li>Dr. Glenn Morgan (SASE President, Cardiff Business School)</li>
+                <li>Dr. Glenn Morgan (Cardiff Business School)</li>
+                <li>Dra. Marion Fourcade (SASE President)</li>
                 <li>Dr. Claudio Dedecca (Unicamp)</li>
                 <li>Dra. Maria Cristina Cacciamali (USP)</li>
                 <li>Dra. Maria de Lourdes Mollo (UnB)</li>

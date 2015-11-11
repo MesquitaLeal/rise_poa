@@ -61,6 +61,7 @@ AppAsset::register($this);
 						],
 					],
 					'<li><a href="mailto:2rise.ufrgs.portoalegre@gmail.com"><i class="fa fa-envelope"></i></a></li>',
+					'<li><a href="https://twitter.com/SASE_Meeting"><i class="fa fa-twitter"></i></a></li>',
 					Yii::$app->user->isGuest ?
 						['label' => '<i class="fa fa-user"></i>', 'url' => ['/site/login']] :
 						['label' => '<i class="fa fa-user-times"></i>' /*. Yii::$app->user->identity->name .*/,

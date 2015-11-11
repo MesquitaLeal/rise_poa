@@ -147,6 +147,7 @@ return [
     '17:00 – 18:30' => '05:00 PM - 06:30 PM',
     '18:30 – 19:00' => '06:30 PM - 07:00 PM',
     '19:00 – 21:00' => '07:00 PM - 09:00 PM',
+    'Acceda al Programa' => 'Download the program',
 
     //Deadlines
     '01/04/2015' => 'April 1st, 2015',

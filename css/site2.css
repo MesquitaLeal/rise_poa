@@ -453,6 +453,29 @@ footer a:hover {
     margin-bottom: 20px;
 }
 
+.program-download {
+    width: 500px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #91163C;
+    padding: 30px;
+    background-color: #91163C;
+    transition: all 0.3s ease;
+}
+
+.program-download:hover {
+    background-color: #720632;
+    border-color: #91163C;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.program-download span {
+    text-transform: uppercase;
+    font-family: "AncillaryRegular";
+    font-size: 1.5rem;
+}
+
 /*.papers-box {
     position: absolute;
     bottom: 100px;

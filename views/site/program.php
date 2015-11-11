@@ -61,4 +61,12 @@
             </div>
         </div>
     </div>
+    <br/>
+    <div class="row content">
+        <a href="files/programa_parcial.pdf">
+            <div class="program-download">
+                <span><?= Yii::t('app', 'Acceda al Programa') ;?></span>
+            </div>
+        </a>
+    </div>
 </section>

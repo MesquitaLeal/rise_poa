@@ -135,6 +135,7 @@ return [
     '21 de noviembre' => '21 de novembro',
     'Jueves' => 'Quinta',
     'Viernes' => 'Sexta',
+    'Acceda al Programa' => 'Acesse o programa',
 
 
     //Deadlines

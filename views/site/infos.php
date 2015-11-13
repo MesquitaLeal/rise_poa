@@ -375,7 +375,7 @@
                                     <br/>
                                     <div class="row modal-text">
                                         <div class="col-md-12">
-                                            <p><?=Yii::t('app', 'Pronto')?></p>
+                                            <img src="images/map.jpg" class="map img-responsive">
                                         </div>
                                     </div>
                                 </div>
